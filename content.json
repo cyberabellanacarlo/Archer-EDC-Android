@@ -1,0 +1,5445 @@
+{
+ "version": "rex-v2",
+ "generatedFrom": [
+  "ARCHER_FirstAid_Content_v2.md",
+  "ARCHER_FirstAid_Voice_v2.md",
+  "ARCHER_FirstAid_Voice_TL_v2.md",
+  "ARCHER_FirstAid_TL_Shortened_v2.1.md",
+  "ARCHER_Audio_Cues_and_Training_Why_v2.md",
+  "ARCHER_FirstAid_Triage_Tree_v1.md"
+ ],
+ "phrases": {
+  "EN": {
+   "C3": "Give 2 breaths.",
+   "C4": "Switch pushers. Check breathing.",
+   "C7": "Say again.",
+   "C8_pressure": "Ten minutes. Check the bleeding. Still bleeding? Keep pressing.",
+   "C8_nosebleed": "Ten minutes. Release slowly. Still bleeding? Pinch ten more.",
+   "C9": "Tourniquet on for N minutes. Do not loosen.",
+   "C10": "Over five minutes. Call 911 now.",
+   "C12": "Still breathing normally?",
+   "worse": "Getting worse?",
+   "speaker": "Tap SPEAKER on the call screen. Phone asks to unlock? Use EMERGENCY CALL."
+  },
+  "TL": {
+   "C3": "Magbigay ng dalawang hininga.",
+   "C4": "Magpalit ng magdi-diin. Tingnan ang paghinga.",
+   "C7": "Pakiulit.",
+   "C8_pressure": "Sampung minuto na. Dumudugo pa? Ituloy ang diin.",
+   "C8_nosebleed": "Sampung minuto na. Dumudugo pa? Ipitin ulit nang sampung minuto.",
+   "C9": "Naka-tourniquet na nang N minuto. Huwag luwagan.",
+   "C10": "Lagpas limang minuto na. Tumawag sa 911 ngayon.",
+   "C12": "Humihinga pa ba nang normal?",
+   "worse": "Lumalala ba?",
+   "speaker": "Pindutin ang SPEAKER sa call screen. Pinapa-unlock? Gamitin ang EMERGENCY CALL.",
+   "stopCpr": "ITIGIL CPR"
+  }
+ },
+ "quiz": [
+  {
+   "id": "Q01",
+   "topic": "bleeding",
+   "q": "Blood is spurting from a thigh wound. What do you do first?",
+   "options": [
+    "Press hard on the wound with cloth",
+    "Raise the leg above the heart",
+    "Wash the wound with alcohol",
+    "Wait for the ambulance"
+   ],
+   "answer": 0,
+   "why": "Firm direct pressure is the first and fastest way to stop heavy bleeding.",
+   "qTl": "Bumubulwak ang dugo sa sugat sa hita. Ano ang una mong gagawin?",
+   "optionsTl": [
+    "Diinan nang malakas ang sugat gamit ang tela",
+    "Itaas ang binti lampas sa puso",
+    "Hugasan ng alcohol ang sugat",
+    "Hintayin ang ambulansya"
+   ],
+   "whyTl": "Ang matibay na diin ang una at pinakamabilis na paraan para pigilan ang malakas na pagdurugo.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q02",
+   "topic": "bleeding",
+   "q": "With plain cloth, how long should you keep firm pressure before checking?",
+   "options": [
+    "1 minute",
+    "10 minutes",
+    "3 minutes",
+    "30 seconds"
+   ],
+   "answer": 1,
+   "why": "Plain cloth needs about 10 minutes for a clot to form; 3 minutes is only for hemostatic gauze.",
+   "qTl": "Kung ordinaryong tela, gaano katagal didiinan bago silipin?",
+   "optionsTl": [
+    "1 minuto",
+    "10 minuto",
+    "3 minuto",
+    "30 segundo"
+   ],
+   "whyTl": "Kailangan ng mga 10 minuto ang ordinaryong tela para mamuo ang dugo; ang 3 minuto ay para lang sa hemostatic gauze.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q03",
+   "topic": "bleeding",
+   "q": "Blood soaks through the cloth you are pressing. What now?",
+   "options": [
+    "Remove it and use a fresh one",
+    "Stop pressing and tie a string",
+    "Add more cloth on top and keep pressing",
+    "Pour water on the wound"
+   ],
+   "answer": 2,
+   "why": "Removing the first layer pulls off the clot and restarts the bleeding.",
+   "qTl": "Tumatagos ang dugo sa telang idinidiin mo. Ano ngayon?",
+   "optionsTl": [
+    "Tanggalin at palitan ng bago",
+    "Itigil ang diin at talian ng pisi",
+    "Patungan pa ng tela at ituloy ang diin",
+    "Buhusan ng tubig ang sugat"
+   ],
+   "whyTl": "Ang pagtanggal sa unang tela ay humihila sa namuong dugo at nagpapadugo ulit.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q04",
+   "topic": "bleeding",
+   "q": "You must improvise a tourniquet. Which is correct?",
+   "options": [
+    "Use a pen as the twist stick",
+    "Place it on the elbow joint",
+    "Loosen it every 10 minutes",
+    "Use a wide band 5–7 cm above the wound, twist with a strong stick"
+   ],
+   "answer": 3,
+   "why": "A wide band above the wound with a strong stick works; pens snap, joints block pressure, and loosening can kill.",
+   "qTl": "Kailangan mong gumawa ng tourniquet. Alin ang tama?",
+   "optionsTl": [
+    "Gumamit ng ballpen bilang pihitan",
+    "Ilagay sa siko",
+    "Luwagan bawat 10 minuto",
+    "Malapad na tali 5–7 cm sa itaas ng sugat, pihitin gamit ang matibay na patpat"
+   ],
+   "whyTl": "Gumagana ang malapad na tali sa itaas ng sugat at matibay na patpat; nababali ang ballpen, hinaharangan ng kasukasuan ang diin, at nakamamatay ang pagluwag.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q05",
+   "topic": "cpr",
+   "q": "Someone collapsed and is only gasping. What does that mean?",
+   "options": [
+    "They are breathing, wait and watch",
+    "Give water",
+    "Treat as not breathing: call 911 and start CPR",
+    "Put them in the recovery position and leave"
+   ],
+   "answer": 2,
+   "why": "Gasping is not normal breathing; it's a sign of cardiac arrest.",
+   "qTl": "May bumagsak at humihingal lang. Ano ang ibig sabihin nito?",
+   "optionsTl": [
+    "Humihinga siya, maghintay at bantayan",
+    "Painumin ng tubig",
+    "Ituring na hindi humihinga: tumawag sa 911 at mag-CPR",
+    "I-recovery position at iwan"
+   ],
+   "whyTl": "Ang paghingal ay hindi normal na paghinga; senyales ito ng cardiac arrest.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q06",
+   "topic": "cpr",
+   "q": "How deep and how fast are adult chest compressions?",
+   "options": [
+    "5–6 cm, 100–120 per minute",
+    "2 cm, 60 per minute",
+    "10 cm, 150 per minute",
+    "1 cm, as fast as possible"
+   ],
+   "answer": 0,
+   "why": "5–6 cm at 100–120 per minute moves enough blood; ARCHER beeps at 110.",
+   "qTl": "Gaano kalalim at kabilis ang pagdiin sa dibdib ng adult?",
+   "optionsTl": [
+    "5–6 cm, 100–120 kada minuto",
+    "2 cm, 60 kada minuto",
+    "10 cm, 150 kada minuto",
+    "1 cm, pinakamabilis hangga't kaya"
+   ],
+   "whyTl": "Ang 5–6 cm sa 100–120 kada minuto ay sapat na nagpapadaloy ng dugo; 110 ang tunog ng ARCHER.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q07",
+   "topic": "cpr",
+   "q": "You are not trained in rescue breaths. What CPR should you do?",
+   "options": [
+    "No CPR, just wait",
+    "Push 10 times then stop",
+    "Only breaths, no pushes",
+    "Hands-only CPR, push nonstop"
+   ],
+   "answer": 3,
+   "why": "Hands-only CPR by an untrained bystander still doubles survival chances.",
+   "qTl": "Hindi ka trained sa rescue breath. Anong CPR ang gagawin mo?",
+   "optionsTl": [
+    "Walang CPR, maghintay lang",
+    "Diinan nang 10 beses saka tumigil",
+    "Hininga lang, walang diin",
+    "Hands-only CPR, tuloy-tuloy na diin"
+   ],
+   "whyTl": "Malaki pa rin ang naitutulong ng hands-only CPR ng hindi trained na tumutulong.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q08",
+   "topic": "cpr",
+   "q": "An AED arrives during CPR. What do you do?",
+   "options": [
+    "Finish 10 more minutes of CPR first",
+    "Turn it on and follow its voice; keep pushing until it says stop",
+    "Only use it if you are a nurse",
+    "Use it after drying the person for 5 minutes"
+   ],
+   "answer": 1,
+   "why": "AEDs are made for anyone; the voice guides you and a shock can restart the heart.",
+   "qTl": "Dumating ang AED habang nagsi-CPR. Ano ang gagawin mo?",
+   "optionsTl": [
+    "Tapusin muna ang 10 minutong CPR",
+    "Buksan at sundin ang boses nito; ituloy ang diin hanggang sabihing tumigil",
+    "Gamitin lang kung nurse ka",
+    "Gamitin pagkatapos patuyuin ang tao nang 5 minuto"
+   ],
+   "whyTl": "Para sa lahat ang AED; gagabayan ka ng boses at puwedeng ibalik ng shock ang tibok ng puso.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q09",
+   "topic": "choking",
+   "q": "An adult can't speak or cough, hands on throat. What is the first action?",
+   "options": [
+    "5 hard back blows, then 5 abdominal thrusts",
+    "Give water",
+    "Sweep the throat with your finger",
+    "Wait for them to faint"
+   ],
+   "answer": 0,
+   "why": "Back blows then abdominal thrusts, repeated, is the current guidance for severe choking.",
+   "qTl": "Hindi makapagsalita o makaubo ang adult, hawak ang lalamunan. Ano ang unang gagawin?",
+   "optionsTl": [
+    "5 malakas na palo sa likod, saka 5 tulak sa tiyan",
+    "Painumin ng tubig",
+    "Kapain ang lalamunan ng daliri",
+    "Hintayin siyang mahimatay"
+   ],
+   "whyTl": "Ang palo sa likod at tulak sa tiyan, paulit-ulit, ang kasalukuyang gabay sa matinding pagkabulon.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q10",
+   "topic": "choking",
+   "q": "A baby under 1 year is choking and can't cry. What do you do?",
+   "options": [
+    "Abdominal thrusts like an adult",
+    "5 back blows, then 5 chest thrusts with the heel of one hand",
+    "Hang the baby upside down",
+    "Give milk to wash it down"
+   ],
+   "answer": 1,
+   "why": "Babies get back blows and chest thrusts; belly thrusts can injure a baby's organs.",
+   "qTl": "Nabulunan ang sanggol na wala pang 1 taon at hindi makaiyak. Ano ang gagawin mo?",
+   "optionsTl": [
+    "Itulak ang tiyan gaya ng adult",
+    "5 palo sa likod, saka 5 diin sa dibdib gamit ang palad ng isang kamay",
+    "Ibitin nang patiwarik",
+    "Painumin ng gatas"
+   ],
+   "whyTl": "Palo sa likod at diin sa dibdib para sa sanggol; puwedeng makasakit ng laman-loob ang tulak sa tiyan.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q11",
+   "topic": "choking",
+   "q": "The choking person collapses and stops responding. Next step?",
+   "options": [
+    "Keep doing abdominal thrusts standing",
+    "Sit them up and wait",
+    "Lower them down, call 911, start CPR",
+    "Give back blows only"
+   ],
+   "answer": 2,
+   "why": "Chest compressions also push on the blockage; check the mouth before any breaths.",
+   "qTl": "Bumagsak at hindi na tumutugon ang nabulunan. Ano ang susunod?",
+   "optionsTl": [
+    "Ituloy ang tulak sa tiyan nang nakatayo",
+    "Paupuin at maghintay",
+    "Ihiga, tumawag sa 911, simulan ang CPR",
+    "Palo sa likod lang"
+   ],
+   "whyTl": "Ang pagdiin sa dibdib ay tumutulak din sa bara; silipin ang bibig bago magbigay ng hininga.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q12",
+   "topic": "burns",
+   "q": "How long should you cool a burn under clean running water?",
+   "options": [
+    "10 seconds",
+    "2 minutes",
+    "Don't use water, use ice",
+    "At least 20 minutes"
+   ],
+   "answer": 3,
+   "why": "20 minutes of cool running water stops the burn going deeper and eases pain.",
+   "qTl": "Gaano katagal palalamigin ang paso sa malinis na umaagos na tubig?",
+   "optionsTl": [
+    "10 segundo",
+    "2 minuto",
+    "Huwag tubig, yelo ang gamitin",
+    "Hindi bababa sa 20 minuto"
+   ],
+   "whyTl": "Ang 20 minutong umaagos na tubig ay pumipigil sa paglalim ng paso at nagpapagaan ng sakit.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q13",
+   "topic": "burns",
+   "q": "What should you put on a burn after cooling?",
+   "options": [
+    "Toothpaste",
+    "Butter or oil",
+    "Loose cling wrap or a clean plastic bag",
+    "Ice cubes directly"
+   ],
+   "answer": 2,
+   "why": "Cling wrap keeps germs out and doesn't stick; the others trap heat or damage skin.",
+   "qTl": "Ano ang ilalagay sa paso pagkatapos palamigin?",
+   "optionsTl": [
+    "Toothpaste",
+    "Mantikilya o langis",
+    "Maluwag na cling wrap o malinis na plastik",
+    "Yelo nang direkta"
+   ],
+   "whyTl": "Hinaharangan ng cling wrap ang mikrobyo at hindi dumidikit; ang iba ay nagkukulong ng init o sumisira ng balat.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q14",
+   "topic": "heat",
+   "q": "A guard on duty is confused, very hot, and collapsed. What is the best cooling?",
+   "options": [
+    "Cold water up to the neck (or soak and fan) and call 911",
+    "Give hot coffee",
+    "Let them rest in the sun",
+    "Only give a sports drink"
+   ],
+   "answer": 0,
+   "why": "This is heat stroke: call 911 and cool fast; cold-water immersion is the fastest method.",
+   "qTl": "Lito, napakainit, at bumagsak ang guwardiya habang naka-duty. Ano ang pinakamahusay na pagpapalamig?",
+   "optionsTl": [
+    "Ilubog sa malamig na tubig hanggang leeg (o basain at paypayan) at tumawag sa 911",
+    "Painumin ng mainit na kape",
+    "Pagpahingahin sa araw",
+    "Sports drink lang"
+   ],
+   "whyTl": "Heat stroke ito: tumawag sa 911 at palamigin agad; pinakamabilis ang paglubog sa malamig na tubig.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q15",
+   "topic": "heat",
+   "q": "Heat exhaustion: alert, sweaty, dizzy. When do you treat it as heat stroke?",
+   "options": [
+    "If they ask for water",
+    "Only if they faint twice",
+    "Never",
+    "If not better in 30 minutes, or they get confused"
+   ],
+   "answer": 3,
+   "why": "Heat exhaustion can turn into heat stroke; confusion or no improvement means emergency.",
+   "qTl": "Heat exhaustion: gising, pawisan, nahihilo. Kailan ito ituturing na heat stroke?",
+   "optionsTl": [
+    "Kapag humingi ng tubig",
+    "Kapag dalawang beses nahimatay",
+    "Hindi kailanman",
+    "Kung hindi gumaling sa 30 minuto, o naging lito"
+   ],
+   "whyTl": "Puwedeng mauwi sa heat stroke ang heat exhaustion; emergency kapag lito o hindi gumagaling.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q16",
+   "topic": "seizures",
+   "q": "Someone is having a seizure. Which is correct?",
+   "options": [
+    "Hold them down firmly",
+    "Clear hard objects, cushion the head, time it",
+    "Put a spoon in their mouth",
+    "Pour water on their face"
+   ],
+   "answer": 1,
+   "why": "Protect from injury and time it; holding down or objects in the mouth cause injuries.",
+   "qTl": "May nagkokombulsyon. Alin ang tama?",
+   "optionsTl": [
+    "Pigilan siya nang mahigpit",
+    "Ilayo ang matitigas na bagay, unanan ang ulo, orasan",
+    "Lagyan ng kutsara ang bibig",
+    "Buhusan ng tubig ang mukha"
+   ],
+   "whyTl": "Protektahan sa pinsala at orasan; ang pagpigil o paglagay ng bagay sa bibig ay nagdudulot ng pinsala.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q17",
+   "topic": "seizures",
+   "q": "When is a seizure a 911 emergency?",
+   "options": [
+    "Over 5 minutes, or another seizure follows",
+    "Only if it lasts 30 minutes",
+    "Never, seizures stop on their own",
+    "Only for children"
+   ],
+   "answer": 0,
+   "why": "A seizure over 5 minutes risks brain injury and needs medicine fast.",
+   "qTl": "Kailan emergency sa 911 ang kombulsyon?",
+   "optionsTl": [
+    "Lagpas 5 minuto, o may sumunod pang kombulsyon",
+    "Kapag umabot lang ng 30 minuto",
+    "Hindi kailanman, kusang tumitigil",
+    "Para lang sa bata"
+   ],
+   "whyTl": "Ang kombulsyong lagpas 5 minuto ay delikado sa utak at kailangan agad ng gamot.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q18",
+   "topic": "recovery",
+   "q": "When do you use the recovery position?",
+   "options": [
+    "Not breathing",
+    "Unresponsive but breathing normally, no suspected spine injury",
+    "Choking adult who can cough",
+    "Heavy bleeding from the leg"
+   ],
+   "answer": 1,
+   "why": "On the side keeps the airway open and lets vomit drain while they breathe.",
+   "qTl": "Kailan gagamitin ang recovery position?",
+   "optionsTl": [
+    "Hindi humihinga",
+    "Walang malay pero normal na humihinga, walang hinalang pinsala sa gulugod",
+    "Nabulunang adult na nakakaubo",
+    "Malakas na pagdurugo sa binti"
+   ],
+   "whyTl": "Ang pagtagilid ay nagpapanatiling bukas ng daanan ng hangin at nagpapalabas ng suka habang humihinga siya.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q19",
+   "topic": "recovery",
+   "q": "After placing someone in the recovery position, what must you keep doing?",
+   "options": [
+    "Give them water",
+    "Leave to get help and don't come back",
+    "Check their breathing often",
+    "Shake them every minute"
+   ],
+   "answer": 2,
+   "why": "They can stop breathing without warning; if they do, start CPR.",
+   "qTl": "Matapos i-recovery position, ano ang dapat mong ituloy?",
+   "optionsTl": [
+    "Painumin ng tubig",
+    "Umalis para humingi ng tulong at huwag nang bumalik",
+    "Laging tingnan ang paghinga",
+    "Yugyugin bawat minuto"
+   ],
+   "whyTl": "Puwede siyang tumigil huminga nang walang babala; kung mangyari, mag-CPR.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q20",
+   "topic": "triage",
+   "q": "Many people are hurt after a blast. Who do you go to first?",
+   "options": [
+    "The loudest person shouting",
+    "Whoever is closest to the exit",
+    "The ones who can walk",
+    "The silent, still ones"
+   ],
+   "answer": 3,
+   "why": "Silent, still patients are often the most critical; walkers are lower priority.",
+   "qTl": "Maraming sugatan pagkatapos ng pagsabog. Sino ang una mong pupuntahan?",
+   "optionsTl": [
+    "Ang pinakamalakas sumigaw",
+    "Ang pinakamalapit sa labasan",
+    "Ang mga nakakalakad",
+    "Ang tahimik at hindi gumagalaw"
+   ],
+   "whyTl": "Kadalasang pinakamalala ang tahimik at hindi gumagalaw; mas mababa ang prayoridad ng nakakalakad.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q21",
+   "topic": "triage",
+   "q": "You are alone with ONE patient who is not breathing. What do you do?",
+   "options": [
+    "Move on to find others",
+    "Wait for a second rescuer",
+    "Call 911 and start CPR now",
+    "Only mark their forehead"
+   ],
+   "answer": 2,
+   "why": "'Move on' is only for mass casualties with many patients; one patient not breathing gets CPR.",
+   "qTl": "Mag-isa ka at may ISANG pasyenteng hindi humihinga. Ano ang gagawin mo?",
+   "optionsTl": [
+    "Lumipat para maghanap ng iba",
+    "Hintayin ang pangalawang tutulong",
+    "Tumawag sa 911 at mag-CPR agad",
+    "Markahan lang ang noo"
+   ],
+   "whyTl": "Ang 'lumipat sa susunod' ay para lang sa maraming sugatan; ang isang pasyenteng hindi humihinga ay bibigyan ng CPR.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q22",
+   "topic": "scene",
+   "q": "You see an injured person lying on a busy road. What is step zero?",
+   "options": [
+    "Check the scene is safe: traffic, fire, wires, attacker",
+    "Run straight to them",
+    "Move them off the road by the arms right away",
+    "Take photos first"
+   ],
+   "answer": 0,
+   "why": "A hurt rescuer can't help anyone; make the scene safe first.",
+   "qTl": "May nakahigang sugatan sa mataong kalsada. Ano ang step zero?",
+   "optionsTl": [
+    "Tingnan kung ligtas ang lugar: trapiko, sunog, kawad, umaatake",
+    "Tumakbo agad papunta sa kanya",
+    "Hilahin agad sa braso palabas ng kalsada",
+    "Kumuha muna ng litrato"
+   ],
+   "whyTl": "Walang matutulungan ang tumutulong na nasaktan; gawing ligtas muna ang lugar.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q23",
+   "topic": "scene",
+   "q": "A worker is stuck to a power line that is down on the street. What do you do?",
+   "options": [
+    "Pull him off with your hands",
+    "Push the wire with a wet stick",
+    "Throw water on him",
+    "Stay 10 m away, keep others back, call 911 and the power company"
+   ],
+   "answer": 3,
+   "why": "High-voltage current can jump; never approach a downed line.",
+   "qTl": "May trabahador na nakadikit sa bumagsak na kawad ng kuryente sa kalsada. Ano ang gagawin mo?",
+   "optionsTl": [
+    "Hilahin siya gamit ang kamay",
+    "Itulak ang kawad ng basang patpat",
+    "Buhusan siya ng tubig",
+    "Lumayo nang 10 metro, ilayo ang iba, tumawag sa 911 at sa kompanya ng kuryente"
+   ],
+   "whyTl": "Puwedeng tumalon ang high-voltage na kuryente; huwag lumapit sa bagsak na kawad.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q24",
+   "topic": "call911",
+   "q": "What is the emergency number for police, fire and ambulance in the Philippines?",
+   "options": [
+    "117",
+    "911",
+    "166",
+    "143"
+   ],
+   "answer": 1,
+   "why": "911 is the national emergency hotline in the Philippines.",
+   "qTl": "Ano ang emergency number para sa pulis, bumbero at ambulansya sa Pilipinas?",
+   "optionsTl": [
+    "117",
+    "911",
+    "166",
+    "143"
+   ],
+   "whyTl": "911 ang pambansang emergency hotline sa Pilipinas.",
+   "tlStatus": "needs-medic-review"
+  },
+  {
+   "id": "Q25",
+   "topic": "call911",
+   "q": "On the 911 call while doing CPR, what helps most?",
+   "options": [
+    "Put the phone on speaker and give the exact location",
+    "Hang up so you can focus",
+    "Text instead of calling",
+    "Call a friend first"
+   ],
+   "answer": 0,
+   "why": "Speaker lets the dispatcher coach you; an exact location saves minutes.",
+   "qTl": "Habang tumatawag sa 911 at nagsi-CPR, ano ang pinakamakakatulong?",
+   "optionsTl": [
+    "I-speaker ang telepono at sabihin ang eksaktong lokasyon",
+    "Ibaba ang tawag para makapag-focus",
+    "Mag-text na lang",
+    "Tawagan muna ang kaibigan"
+   ],
+   "whyTl": "Sa speaker, matuturuan ka ng dispatcher; nakakatipid ng minuto ang eksaktong lokasyon.",
+   "tlStatus": "needs-medic-review"
+  }
+ ],
+ "rules": {
+  "sceneSafeWhy": "traffic, fire, wires, an attacker or a crowd can turn you into patient number two.",
+  "call911Bar": "CALL 911 FIRST",
+  "speakFirst": "Call 911 now, or have someone call.",
+  "speakFirstTl": "Tumawag sa 911 ngayon, o magpatawag sa iba.",
+  "sceneSafeStep": "Check the scene is safe.",
+  "sceneSafeStepTl": "Siguraduhing ligtas ang lugar.",
+  "sceneSafeDetail": "CHECK SCENE SAFE: traffic, fire, wires, attacker, crowd. Don't become victim #2.",
+  "gloves": "Gloves: if none, use plastic bag, plastic wrapper, or clean cloth over your hand.",
+  "footer": "Not a substitute for professional care. Get medical help ASAP.",
+  "trainingNote": "Quick guide, not a replacement for proper first-aid training.",
+  "cpr2min": "Switch pushers. Check breathing.",
+  "cpr2minTl": "Magpalit ng magdi-diin. Tingnan ang paghinga.",
+  "basis": "Based on standard lay-responder first aid guidance (Red Cross / AHA / Stop the Bleed style)."
+ },
+ "categories": [
+  {
+   "id": 1,
+   "name": "Trauma and physical injuries"
+  },
+  {
+   "id": 2,
+   "name": "Medical emergencies"
+  },
+  {
+   "id": 3,
+   "name": "Environmental emergencies"
+  },
+  {
+   "id": 4,
+   "name": "Burns and related injuries"
+  },
+  {
+   "id": 5,
+   "name": "Special emergencies"
+  },
+  {
+   "id": 6,
+   "name": "Public and mass-casualty emergencies"
+  }
+ ],
+ "priority": [
+  "bleeding",
+  "cuts",
+  "rta",
+  "fractures",
+  "burns",
+  "fainting",
+  "choking",
+  "seizures",
+  "heat_exhaustion",
+  "cpr"
+ ],
+ "topics": [
+  {
+   "category": 1,
+   "name": "Cuts and lacerations",
+   "card": "cuts",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Severe bleeding / hemorrhage",
+   "card": "bleeding",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Puncture wounds",
+   "card": "cuts",
+   "coverage": "partial",
+   "related": [
+    "bleeding"
+   ]
+  },
+  {
+   "category": 1,
+   "name": "Abrasions and skin tears",
+   "card": "cuts",
+   "coverage": "partial",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Bruises and contusions",
+   "card": "fractures",
+   "coverage": "partial",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Sprains and strains",
+   "card": "fractures",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Fractures and dislocations",
+   "card": "fractures",
+   "coverage": "partial",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Head injuries",
+   "card": "head",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Spinal injuries",
+   "card": "spinal",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Road traffic accidents",
+   "card": "rta",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Crush injuries",
+   "card": "crush",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 1,
+   "name": "Amputations",
+   "card": "amputation",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Fainting / syncope",
+   "card": "fainting",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Seizures",
+   "card": "seizures",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Stroke",
+   "card": "stroke",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Heart attack",
+   "card": "heart_attack",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Cardiac arrest",
+   "card": "cpr",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Chest pain",
+   "card": "heart_attack",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "High or low blood sugar",
+   "card": "low_sugar",
+   "coverage": "partial",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Diabetic emergencies",
+   "card": "low_sugar",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "High blood pressure emergencies",
+   "card": "high_bp",
+   "coverage": "full",
+   "related": [
+    "stroke",
+    "heart_attack"
+   ]
+  },
+  {
+   "category": 2,
+   "name": "Asthma attacks",
+   "card": "asthma",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Difficulty breathing",
+   "card": "asthma",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Severe allergic reactions / anaphylaxis",
+   "card": "anaphylaxis",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Choking",
+   "card": "choking",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 2,
+   "name": "Poisoning",
+   "card": "poisoning",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Heat exhaustion",
+   "card": "heat_exhaustion",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Heat stroke",
+   "card": "heat_stroke",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Hypothermia",
+   "card": "hypothermia",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Dehydration",
+   "card": "dehydration",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Sunburn",
+   "card": "sunburn",
+   "coverage": "full",
+   "related": [
+    "burns",
+    "heat_exhaustion",
+    "dehydration"
+   ]
+  },
+  {
+   "category": 3,
+   "name": "Electrical injuries",
+   "card": "electrical",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Lightning strikes",
+   "card": "electrical",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Drowning",
+   "card": "drowning",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Animal bites",
+   "card": "animal_bite",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Snake bites",
+   "card": "snake",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Insect stings",
+   "card": "insect",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 3,
+   "name": "Chemical exposure",
+   "card": "poisoning",
+   "coverage": "partial",
+   "related": [
+    "burns",
+    "eye"
+   ]
+  },
+  {
+   "category": 4,
+   "name": "Thermal burns",
+   "card": "burns",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Scalds",
+   "card": "burns",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Chemical burns",
+   "card": "burns",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Electrical burns",
+   "card": "electrical",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Eye injuries",
+   "card": "eye",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Foreign objects in the eye",
+   "card": "eye",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Nosebleeds",
+   "card": "nosebleed",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 4,
+   "name": "Dental injuries",
+   "card": "dental",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Pregnancy-related emergencies",
+   "card": "pregnancy",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Childbirth emergencies",
+   "card": "childbirth",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Severe vomiting",
+   "card": "dehydration",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Severe diarrhea",
+   "card": "dehydration",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Febrile seizures",
+   "card": "febrile",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Pediatric choking",
+   "card": "choking",
+   "coverage": "partial",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Altered mental status",
+   "card": "altered",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 5,
+   "name": "Panic attacks",
+   "card": "panic",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 6,
+   "name": "Multiple-vehicle collisions",
+   "card": "triage",
+   "coverage": "partial",
+   "related": [
+    "rta"
+   ]
+  },
+  {
+   "category": 6,
+   "name": "Crowd crush / stampede",
+   "card": "crowd",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 6,
+   "name": "Workplace accidents",
+   "card": "workplace",
+   "coverage": "full",
+   "related": [
+    "bleeding",
+    "fractures",
+    "crush",
+    "electrical",
+    "burns",
+    "eye"
+   ]
+  },
+  {
+   "category": 6,
+   "name": "Fire-related injuries",
+   "card": "fire",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 6,
+   "name": "Explosion injuries",
+   "card": "explosion",
+   "coverage": "full",
+   "related": []
+  },
+  {
+   "category": 6,
+   "name": "Multiple-casualty incidents",
+   "card": "triage",
+   "coverage": "full",
+   "related": []
+  }
+ ],
+ "cards": [
+  {
+   "id": "bleeding",
+   "title": "Severe bleeding",
+   "category": 1,
+   "priority": 1,
+   "signs": [
+    "blood spurting or pooling, soaking through cloth, person getting pale/weak."
+   ],
+   "nearby": [
+    "shirt",
+    "towel",
+    "face towel",
+    "sanitary pad",
+    "diaper",
+    "belt",
+    "necktie",
+    "strong stick",
+    "wrench or screwdriver as windlass",
+    "tape"
+   ],
+   "doNot": [
+    "Don't lift to check.",
+    "Don't remove the first layer.",
+    "Never thin wire, string or cable tie.",
+    "Do NOT loosen.",
+    "Do NOT raise the legs after an injury or bleeding."
+   ],
+   "call911When": null,
+   "detail": [
+    "Signs: blood spurting or pooling, soaking through cloth, person getting pale/weak.",
+    "1. Call 911. Protect your hands (bag/plastic).",
+    "2. PRESS HARD directly on the wound with cloth, both hands, full body weight. Don't lift to check. Keep pressing at least 10 minutes with plain cloth.",
+    "3. Blood soaks through? Add more cloth on top. Don't remove the first layer.",
+    "4. Deep wound (thigh, armpit, neck, groin)? PACK IT: stuff cloth deep into the wound with your fingers, then press hard for 10 minutes (3 minutes only if you have hemostatic gauze).",
+    "5. Arm or leg still bleeding badly after firm pressure? TOURNIQUET:",
+    "- Use a commercial (manufactured) tourniquet if you have one. It works best.",
+    "- No commercial tourniquet? Improvise only after firm direct pressure fails (best if trained).",
+    "- Band 4–5 cm wide (folded shirt, scarf, belt). Never thin wire, string or cable tie.",
+    "- Place 5–7 cm above the wound, not on a joint.",
+    "- Tie, put a strong stick on the knot (not a pen, it can snap), twist until bleeding STOPS, secure the stick.",
+    "- Write the time on the skin or forehead. Do NOT loosen.",
+    "6. Lay them down and keep them warm. Do NOT raise the legs after an injury or bleeding.",
+    "Nearby items: shirt, towel, face towel, sanitary pad, diaper, belt, necktie, strong stick, wrench or screwdriver as windlass, tape.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid; Stop the Bleed (ACS)."
+   ],
+   "steps": [
+    {
+     "text": "Check the scene is safe.",
+     "keyword": "SAFE?",
+     "tl": "Siguraduhing ligtas ang lugar.",
+     "kwTl": "LIGTAS?",
+     "kwTlStatus": "rex-v2",
+     "why": "a hurt rescuer can't help anyone."
+    },
+    {
+     "text": "Cover your hands with plastic or cloth.",
+     "keyword": "COVER",
+     "tl": "Takpan ang kamay ng plastik o tela.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "rex-v2",
+     "why": "protects you from blood-borne infection."
+    },
+    {
+     "text": "Press hard on the wound with cloth.",
+     "keyword": "PRESS",
+     "tl": "Diinan nang malakas ang sugat gamit ang tela.",
+     "kwTl": "DIINAN",
+     "kwTlStatus": "approved",
+     "why": "pressure squeezes the vessel shut so blood can clot."
+    },
+    {
+     "text": "Use both hands and your body weight.",
+     "keyword": "BOTH HANDS",
+     "tl": "Gamitin ang dalawang kamay at bigat ng katawan.",
+     "kwTl": "KAMAY",
+     "kwTlStatus": "rex-v2",
+     "why": "pressure squeezes the vessel shut so blood can clot."
+    },
+    {
+     "text": "Do not lift the cloth to check.",
+     "keyword": "DON'T LIFT",
+     "tl": "Huwag iangat ang tela para silipin.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "lifting breaks the clot that's forming."
+    },
+    {
+     "text": "Blood soaking through? Add more cloth on top.",
+     "keyword": "ADD CLOTH",
+     "tl": "Tumatagos ang dugo? Patungan pa ng tela.",
+     "kwTl": "PATUNGAN",
+     "kwTlStatus": "rex-v2",
+     "why": "removing the first layer restarts bleeding."
+    },
+    {
+     "text": "Deep wound? Stuff cloth into it, then press hard.",
+     "keyword": "PACK",
+     "tl": "Malalim ang sugat? Isiksik ang tela, saka diinan.",
+     "kwTl": "ISIKSIK",
+     "kwTlStatus": "rex-v2",
+     "why": "pressure has to reach the bleeding vessel inside."
+    },
+    {
+     "text": "Keep pressing for at least ten minutes.",
+     "keyword": "10 MIN",
+     "tl": "Diinan nang hindi bababa sa sampung minuto.",
+     "kwTl": "10 MINUTO",
+     "kwTlStatus": "rex-v2",
+     "timer": {
+      "kind": "PRESSURE",
+      "seconds": 600
+     },
+     "why": "plain cloth needs about 10 minutes of firm pressure for a clot to form; 3 minutes is only for hemostatic gauze."
+    },
+    {
+     "text": "Still bleeding badly? Use a real tourniquet if you have one.",
+     "keyword": "TOURNIQUET",
+     "tl": "Malakas pa rin ang dugo? Gumamit ng tunay na tourniquet kung mayroon.",
+     "kwTl": "TOURNIQUET",
+     "kwTlStatus": "approved",
+     "why": "stops blood flow to a limb when pressure fails; a real one works far better than an improvised one."
+    },
+    {
+     "text": "No tourniquet? Make one with a wide band: shirt, scarf, belt.",
+     "keyword": "WIDE BAND",
+     "tl": "Walang tourniquet? Gumawa gamit ang malapad na tali: damit, panyo, sinturon.",
+     "kwTl": "MALAPAD",
+     "kwTlStatus": "rex-v2",
+     "why": "thin cord cuts skin and doesn't compress evenly."
+    },
+    {
+     "text": "Tie it a hand-width above the wound, not on a joint.",
+     "keyword": "PLACE",
+     "tl": "Itali isang dangkal sa itaas ng sugat, hindi sa kasukasuan.",
+     "kwTl": "ITALI",
+     "kwTlStatus": "rex-v2",
+     "why": "bones in joints block compression."
+    },
+    {
+     "text": "Put a strong stick on the knot, not a pen.",
+     "keyword": "STICK",
+     "tl": "Maglagay ng matibay na patpat sa buhol, hindi ballpen.",
+     "kwTl": "PATPAT",
+     "kwTlStatus": "rex-v2",
+     "why": "a pen can snap mid-twist and the bleeding returns."
+    },
+    {
+     "text": "Twist until the bleeding stops.",
+     "keyword": "TWIST",
+     "tl": "Pihitin hanggang tumigil ang dugo.",
+     "kwTl": "PIHITIN",
+     "kwTlStatus": "approved",
+     "why": "a loose tourniquet can make bleeding worse."
+    },
+    {
+     "text": "Tie the stick in place. Do not loosen.",
+     "keyword": "TIE",
+     "tl": "Itali ang patpat. Huwag luwagan.",
+     "kwTl": "ITALI",
+     "kwTlStatus": "rex-v2",
+     "why": "releasing can cause sudden fatal blood loss."
+    },
+    {
+     "text": "Write the time on their skin.",
+     "keyword": "TIME",
+     "tl": "Isulat ang oras sa balat niya.",
+     "kwTl": "ISULAT",
+     "kwTlStatus": "rex-v2",
+     "timer": {
+      "kind": "TOURNIQUET"
+     },
+     "why": "doctors need to know how long blood was cut off."
+    },
+    {
+     "text": "Lay them down and keep them warm.",
+     "keyword": "LAY",
+     "tl": "Ihiga siya at panatilihing mainit.",
+     "kwTl": "IHIGA",
+     "kwTlStatus": "rex-v2",
+     "why": "slows shock from blood loss; don't raise injured legs, it can worsen hidden injuries."
+    }
+   ],
+   "src": "Content v2 §1 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "Stop the Bleed (ACS)"
+   ],
+   "keywords": [
+    "binaril",
+    "bleed",
+    "bleeding",
+    "blood",
+    "dugo",
+    "duguan",
+    "dumudugo",
+    "dunggab",
+    "gunshot",
+    "hemorrhage",
+    "knife",
+    "nadunggab",
+    "nagdudugo",
+    "pagdurugo",
+    "pinusil",
+    "pooling",
+    "shot",
+    "sinaksak",
+    "spurting",
+    "stab",
+    "stabbed",
+    "tourniquet",
+    "wound"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Severe bleeding / hemorrhage"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "nearbyTl": [
+    "damit",
+    "tuwalya",
+    "face towel",
+    "napkin",
+    "diaper",
+    "sinturon",
+    "kurbata",
+    "matibay na patpat",
+    "wrench o distornilyador bilang pihitan",
+    "tape"
+   ],
+   "doNotTl": [
+    "Huwag itaas ang binti kapag may pinsala o pagdurugo."
+   ],
+   "titleTl": "Matinding Pagdurugo"
+  },
+  {
+   "id": "cuts",
+   "title": "Cuts and wounds",
+   "category": 1,
+   "priority": 2,
+   "signs": [],
+   "nearby": [
+    "bottled water",
+    "clean handkerchief",
+    "tissue + tape",
+    "sanitary pad",
+    "plastic wrap"
+   ],
+   "doNot": [
+    "Do NOT pull out deeply stuck objects; pad around them."
+   ],
+   "call911When": null,
+   "detail": [
+    "1. Press with clean cloth until bleeding stops (about 5–10 min).",
+    "2. Rinse with clean running water (bottled/tap) for several minutes. No need for strong alcohol inside the wound.",
+    "3. Remove visible dirt by rinsing. Do NOT pull out deeply stuck objects; pad around them.",
+    "4. Cover with clean cloth or plaster. Change daily.",
+    "5. Get to a clinic if: gaping edges, deep, on face/hands/joints, from rusty metal or animal (tetanus/rabies shot), or signs of infection (red, hot, pus, fever).",
+    "Nearby items: bottled water, clean handkerchief, tissue + tape, sanitary pad, plastic wrap.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; IFRC First Aid Guidelines."
+   ],
+   "steps": [
+    {
+     "text": "Press with clean cloth until bleeding stops.",
+     "keyword": "PRESS",
+     "tl": "Diinan ng malinis na tela hanggang tumigil ang dugo.",
+     "kwTl": "DIINAN",
+     "kwTlStatus": "rex-v2",
+     "why": "most minor bleeding stops with pressure alone."
+    },
+    {
+     "text": "Rinse with clean water for a few minutes.",
+     "keyword": "RINSE",
+     "tl": "Banlawan ng malinis na tubig nang ilang minuto.",
+     "kwTl": "BANLAWAN",
+     "kwTlStatus": "rex-v2",
+     "why": "clean water removes dirt and lowers infection risk."
+    },
+    {
+     "text": "Do not pull out deeply stuck objects.",
+     "keyword": "DON'T PULL",
+     "tl": "Huwag hugutin ang nakabaong bagay.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "they may be plugging a bleeding vessel."
+    },
+    {
+     "text": "Cover with clean cloth or a plaster.",
+     "keyword": "COVER",
+     "tl": "Takpan ng malinis na tela o plaster.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "rex-v2",
+     "why": "keeps germs out while it heals."
+    },
+    {
+     "text": "Deep, gaping, or from an animal or rusty metal? See a doctor.",
+     "keyword": "DOCTOR",
+     "tl": "Malalim, nakabuka, o galing sa hayop o kalawang? Magpatingin sa doktor.",
+     "kwTl": "DOKTOR",
+     "kwTlStatus": "rex-v2",
+     "why": "may need rabies or tetanus shots."
+    }
+   ],
+   "src": "Content v2 §2 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "abrasion",
+    "cut",
+    "cuts",
+    "galos",
+    "gasgas",
+    "glass",
+    "graze",
+    "hiwa",
+    "laceration",
+    "laslas",
+    "nail",
+    "nalaslas",
+    "nasamad",
+    "natusok",
+    "puncture",
+    "samad",
+    "scrape",
+    "skin",
+    "splinter",
+    "sugat",
+    "tear",
+    "tusok"
+   ],
+   "links": [],
+   "topics": [
+    "Cuts and lacerations",
+    "Puncture wounds",
+    "Abrasions and skin tears"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "titleTl": "Hiwa At Sugat"
+  },
+  {
+   "id": "rta",
+   "title": "Road traffic accident",
+   "category": 1,
+   "priority": 3,
+   "signs": [],
+   "nearby": [
+    "hazard lights",
+    "phone flashlight",
+    "jacket for warmth",
+    "rolled towels beside the head"
+   ],
+   "doNot": [
+    "Do NOT move the injured unless there is fire, fuel leak, or traffic danger.",
+    "Do NOT remove a motorcycle helmet unless they are not breathing or vomiting."
+   ],
+   "call911When": null,
+   "detail": [
+    "1. Make the scene safe: hazard lights, warning triangle or bag/branches 30+ m behind, phone flashlight. Turn off engine if safe. No smoking.",
+    "2. Call 911. Give exact location (landmark, km post).",
+    "3. Do NOT move the injured unless there is fire, fuel leak, or traffic danger.",
+    "4. Do NOT remove a motorcycle helmet unless they are not breathing or vomiting.",
+    "5. Keep head and neck still: kneel behind and hold head in line with your hands.",
+    "6. Check breathing. Not breathing normally? Go to CARDIAC ARREST card.",
+    "7. Treat severe bleeding next (card 1). Keep warm, keep talking to them.",
+    "Nearby items: hazard lights, phone flashlight, jacket for warmth, rolled towels beside the head.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid; IFRC First Aid Guidelines."
+   ],
+   "steps": [
+    {
+     "text": "Turn on hazard lights. Make the scene safe.",
+     "keyword": "HAZARDS",
+     "tl": "I-on ang hazard lights. Gawing ligtas ang lugar.",
+     "kwTl": "HAZARD",
+     "kwTlStatus": "rex-v2",
+     "why": "secondary crashes injure rescuers."
+    },
+    {
+     "text": "Put a warning sign thirty meters behind.",
+     "keyword": "WARN",
+     "tl": "Maglagay ng babala tatlumpung metro sa likod.",
+     "kwTl": "BABALA",
+     "kwTlStatus": "rex-v2",
+     "why": "secondary crashes injure rescuers."
+    },
+    {
+     "text": "Call 911. Give the exact location.",
+     "keyword": "CALL",
+     "tl": "Tumawag sa 911. Sabihin ang eksaktong lokasyon.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "saves responders minutes finding you."
+    },
+    {
+     "text": "Do not move them unless there is fire or traffic danger.",
+     "keyword": "DON'T MOVE",
+     "tl": "Huwag siyang galawin maliban kung may sunog o panganib ng sasakyan.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "movement can worsen a spinal injury."
+    },
+    {
+     "text": "Do not remove a motorbike helmet.",
+     "keyword": "HELMET",
+     "tl": "Huwag tanggalin ang helmet ng motor.",
+     "kwTl": "HELMET",
+     "kwTlStatus": "rex-v2",
+     "why": "removing it can twist the neck."
+    },
+    {
+     "text": "Kneel behind their head. Hold it still.",
+     "keyword": "KNEEL",
+     "tl": "Lumuhod sa likod ng ulo niya. Hawakan itong hindi gumagalaw.",
+     "kwTl": "LUMUHOD",
+     "kwTlStatus": "rex-v2",
+     "why": "keeps the spine in line."
+    },
+    {
+     "text": "Check breathing.",
+     "keyword": "BREATHING?",
+     "tl": "Tingnan kung humihinga.",
+     "kwTl": "HINGA?",
+     "kwTlStatus": "rex-v2",
+     "check": "BREATHING",
+     "why": "no breathing = CPR beats everything else."
+    },
+    {
+     "text": "Stop any heavy bleeding.",
+     "keyword": "STOP",
+     "tl": "Pigilan ang malakas na pagdurugo.",
+     "kwTl": "PIGILAN",
+     "kwTlStatus": "rex-v2",
+     "why": "after breathing, heavy bleeding is the fastest killer."
+    },
+    {
+     "text": "Keep them warm. Keep talking to them.",
+     "keyword": "KEEP",
+     "tl": "Panatilihing mainit. Kausapin siya palagi.",
+     "kwTl": "BALUTIN",
+     "kwTlStatus": "rex-v2",
+     "why": "fights shock and tracks consciousness."
+    }
+   ],
+   "src": "Content v2 §3 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "accident",
+    "aksidente",
+    "bangga",
+    "bike",
+    "car",
+    "collision",
+    "crash",
+    "hit",
+    "motor",
+    "motorcycle",
+    "motorsiklo",
+    "naaksidente",
+    "nabangga",
+    "nasagasaan",
+    "road",
+    "run",
+    "sagasa",
+    "traffic",
+    "vehicle"
+   ],
+   "links": [
+    "cpr",
+    "bleeding",
+    "triage"
+   ],
+   "topics": [
+    "Road traffic accidents"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "titleTl": "Aksidente Sa Kalsada"
+  },
+  {
+   "id": "fractures",
+   "title": "Fractures and sprains",
+   "category": 1,
+   "priority": 4,
+   "signs": [
+    "deformity, severe pain, can't move it, bone visible, swelling."
+   ],
+   "nearby": [
+    "magazine",
+    "cardboard",
+    "umbrella",
+    "stick",
+    "belt",
+    "shirt",
+    "scarf",
+    "cold drink can/ice in cloth"
+   ],
+   "doNot": [
+    "Do NOT straighten it.",
+    "Do NOT push it back in."
+   ],
+   "call911When": null,
+   "detail": [
+    "Fracture signs: deformity, severe pain, can't move it, bone visible, swelling.",
+    "1. Do NOT straighten it. Support it in the position found.",
+    "2. Bone showing? Cover with clean cloth, press AROUND it, not on it.",
+    "3. SPLINT using stiff items, padded, covering the joint above AND below:",
+    "magazine, newspaper roll, cardboard, umbrella, stick, ruler, pillow, or tie leg to the other leg / arm to the body.",
+    "4. Tie with shirt strips, belt, tape. Snug, not tight; check fingers/toes stay warm and pink.",
+    "5. Arm sling: shirt, scarf, or pin the shirt bottom up over the arm.",
+    "6. Sprain: Rest, Ice (wrapped, 15–20 min), Compress (cloth wrap), Elevate.",
+    "7. Suspect spine/neck/hip/thigh fracture? Don't move them. Call 911.",
+    "Dislocation (joint out of place): support it as found. Do NOT push it back in. Sling or padding, cold pack in cloth, see a doctor.",
+    "Nearby items: magazine, cardboard, umbrella, stick, belt, shirt, scarf, cold drink can/ice in cloth.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid."
+   ],
+   "steps": [
+    {
+     "text": "Do not straighten the limb.",
+     "keyword": "LEAVE IT",
+     "tl": "Huwag ituwid ang braso o binti.",
+     "kwTl": "HAYAAN",
+     "kwTlStatus": "rex-v2",
+     "why": "bone ends can cut vessels and nerves."
+    },
+    {
+     "text": "Bone showing? Cover it. Press around, not on it.",
+     "keyword": "COVER",
+     "tl": "May lumabas na buto? Takpan. Diinan ang paligid, hindi ang buto.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "rex-v2",
+     "why": "lowers infection risk."
+    },
+    {
+     "text": "Splint it with something stiff: magazine, cardboard, or umbrella.",
+     "keyword": "SPLINT",
+     "tl": "Lagyan ng splint: magasin, karton, o payong.",
+     "kwTl": "SPLINT",
+     "kwTlStatus": "rex-v2",
+     "why": "stopping movement reduces pain and damage."
+    },
+    {
+     "text": "Cover the joint above and below.",
+     "keyword": "JOINTS",
+     "tl": "Takpan ang kasukasuan sa itaas at ibaba.",
+     "kwTl": "DUGTUNGAN",
+     "kwTlStatus": "rex-v2",
+     "why": "otherwise the broken bone still moves."
+    },
+    {
+     "text": "Tie it with cloth or a belt. Snug, not tight.",
+     "keyword": "TIE",
+     "tl": "Itali ng tela o sinturon. Mahigpit pero hindi masikip.",
+     "kwTl": "ITALI",
+     "kwTlStatus": "rex-v2",
+     "why": "swelling can cut off blood flow."
+    },
+    {
+     "text": "Check fingers or toes stay warm and pink.",
+     "keyword": "CHECK",
+     "tl": "Tingnan kung mainit at rosas pa ang daliri.",
+     "kwTl": "TINGNAN",
+     "kwTlStatus": "rex-v2",
+     "why": "pale or cold means too tight."
+    },
+    {
+     "text": "Arm injury? Make a sling from a shirt or scarf.",
+     "keyword": "SLING",
+     "tl": "Sa braso? Gumawa ng sling mula sa damit o panyo.",
+     "kwTl": "SLING",
+     "kwTlStatus": "rex-v2",
+     "why": "holds the arm still and takes its weight off the injury."
+    },
+    {
+     "text": "Sprain? Rest, cold pack, wrap, and raise it.",
+     "keyword": "SPRAIN",
+     "tl": "Pilay? Ipahinga, lagyan ng malamig, balutin, at itaas.",
+     "kwTl": "PILAY",
+     "kwTlStatus": "rex-v2",
+     "why": "reduces swelling and pain."
+    },
+    {
+     "text": "Neck, back, or hip injury? Do not move them.",
+     "keyword": "DON'T MOVE",
+     "tl": "Leeg, likod, o balakang? Huwag siyang galawin.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "moving can cause paralysis or heavy internal bleeding."
+    }
+   ],
+   "src": "Content v2 §4 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "ankle",
+    "bali",
+    "bone",
+    "break",
+    "broken",
+    "bruise",
+    "bukol",
+    "dislocated",
+    "dislocation",
+    "fracture",
+    "lisa",
+    "na-sprain",
+    "nabali",
+    "nabali-an",
+    "nalisa",
+    "napilay",
+    "pasa",
+    "pilay",
+    "sprain",
+    "strain",
+    "swelling",
+    "twisted",
+    "wrist"
+   ],
+   "links": [],
+   "topics": [
+    "Bruises and contusions",
+    "Sprains and strains",
+    "Fractures and dislocations"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "titleTl": "Bali At Pilay"
+  },
+  {
+   "id": "burns",
+   "title": "Burns",
+   "category": 4,
+   "priority": 5,
+   "signs": [],
+   "nearby": [
+    "bottled water",
+    "cling wrap",
+    "clean plastic bag",
+    "clean shirt"
+   ],
+   "doNot": [
+    "Don't pull off clothing stuck to skin.",
+    "Do NOT use ice, toothpaste, butter, oil, soy sauce or coffee.",
+    "Do NOT pop blisters."
+   ],
+   "call911When": "burns bigger than their palm, face/hands/feet/groin, deep (white/black), electrical or chemical burns, child or elderly.",
+   "detail": [
+    "1. Stop the burning: remove from source. Clothes on fire: STOP, DROP, ROLL or smother with blanket.",
+    "2. COOL with clean running water for at least 20 minutes (bottled water, tap, garden hose).",
+    "3. Remove rings, watch, belt before swelling. Don't pull off clothing stuck to skin.",
+    "4. Cover loosely with plastic cling wrap or a clean plastic bag, or clean non-fluffy cloth.",
+    "5. Do NOT use ice, toothpaste, butter, oil, soy sauce or coffee. Do NOT pop blisters.",
+    "6. Call 911 for: burns bigger than their palm, face/hands/feet/groin, deep (white/black), electrical or chemical burns, child or elderly.",
+    "Chemical burn: brush off powder, then flush with water 20+ min.",
+    "Nearby items: bottled water, cling wrap, clean plastic bag, clean shirt.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid; IFRC First Aid Guidelines."
+   ],
+   "steps": [
+    {
+     "text": "Stop the burning. On fire? Stop, drop, and roll.",
+     "keyword": "STOP",
+     "tl": "Patigilin ang pagkasunog. Nasusunog ang damit? Tumigil, dumapa, gumulong.",
+     "kwTl": "APULAHIN",
+     "kwTlStatus": "rex-v2",
+     "why": "smothers flames; running fans them."
+    },
+    {
+     "text": "Cool the burn under running water.",
+     "keyword": "COOL",
+     "tl": "Palamigin ang paso sa umaagos na tubig.",
+     "kwTl": "PALAMIGIN",
+     "kwTlStatus": "approved",
+     "why": "stops heat from burning deeper and eases pain."
+    },
+    {
+     "text": "Keep cooling for twenty minutes.",
+     "keyword": "20 MIN",
+     "tl": "Ituloy ang pagpapalamig nang dalawampung minuto.",
+     "kwTl": "20 MINUTO",
+     "kwTlStatus": "rex-v2",
+     "timer": {
+      "kind": "BURN_COOL",
+      "seconds": 1200
+     },
+     "why": "stops heat from burning deeper and eases pain."
+    },
+    {
+     "text": "Remove rings and watches before swelling.",
+     "keyword": "REMOVE",
+     "tl": "Tanggalin ang singsing at relo bago mamaga.",
+     "kwTl": "TANGGALIN",
+     "kwTlStatus": "rex-v2",
+     "why": "swelling can trap and cut off fingers."
+    },
+    {
+     "text": "Do not pull off stuck clothing.",
+     "keyword": "DON'T PULL",
+     "tl": "Huwag hilahin ang damit na dumikit.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "it tears burned skin off."
+    },
+    {
+     "text": "Cover loosely with cling wrap or a clean plastic bag.",
+     "keyword": "COVER",
+     "tl": "Takpan nang maluwag ng cling wrap o malinis na plastik.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "rex-v2",
+     "why": "keeps germs out and doesn't stick to the wound."
+    },
+    {
+     "text": "No ice, toothpaste, butter, or oil.",
+     "keyword": "NO ICE",
+     "tl": "Bawal ang yelo, toothpaste, mantikilya, o langis.",
+     "kwTl": "BAWAL",
+     "kwTlStatus": "rex-v2",
+     "why": "ice damages tissue; others trap heat and cause infection."
+    },
+    {
+     "text": "Do not pop blisters.",
+     "keyword": "DON'T POP",
+     "tl": "Huwag putukin ang paltos.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "they protect the skin underneath."
+    },
+    {
+     "text": "Big, deep, or on face or hands? Call 911.",
+     "keyword": "CALL 911",
+     "tl": "Malaki, malalim, o nasa mukha o kamay? Tumawag sa 911.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "they need hospital care for fluids and infection."
+    }
+   ],
+   "src": "Content v2 §5 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "blister",
+    "burn",
+    "burned",
+    "burnt",
+    "chemical",
+    "fire",
+    "hot",
+    "lapnos",
+    "nalapnos",
+    "napaso",
+    "napaso-an",
+    "nasunog",
+    "oil",
+    "paso",
+    "scald",
+    "sunog",
+    "water"
+   ],
+   "links": [
+    "electrical"
+   ],
+   "topics": [
+    "Thermal burns",
+    "Scalds",
+    "Chemical burns"
+   ],
+   "categoryName": "Burns and related injuries",
+   "titleTl": "Paso"
+  },
+  {
+   "id": "fainting",
+   "title": "Fainting",
+   "category": 2,
+   "priority": 6,
+   "signs": [],
+   "nearby": [
+    "bag/backpack under legs",
+    "newspaper as fan",
+    "water"
+   ],
+   "doNot": [
+    "Do NOT: raise the legs if they were hurt in the fall, give food or drink until fully awake, or let them stand up fast."
+   ],
+   "call911When": "no quick recovery, chest pain, seizure, injured in fall, pregnant, or diabetic.",
+   "detail": [
+    "1. Lay them flat on the back.",
+    "2. Raise legs about 30 cm (on a bag, chair, box) only for a simple faint with no fall injury.",
+    "3. Loosen tight clothes; fresh air; shade.",
+    "4. Should wake in 1–2 minutes. If not, check breathing; not normal = CARDIAC ARREST card.",
+    "5. When awake, keep lying 10–15 min; sit up slowly; small sips of water.",
+    "6. Call 911 if: no quick recovery, chest pain, seizure, injured in fall, pregnant, or diabetic.",
+    "Do NOT: raise the legs if they were hurt in the fall, give food or drink until fully awake, or let them stand up fast.",
+    "Nearby items: bag/backpack under legs, newspaper as fan, water.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid."
+   ],
+   "steps": [
+    {
+     "text": "Lay them flat on their back.",
+     "keyword": "LAY",
+     "tl": "Ihiga siya nang patihaya.",
+     "kwTl": "IHIGA",
+     "kwTlStatus": "rex-v2",
+     "why": "sends blood back to the brain; only for a simple faint, not after injury."
+    },
+    {
+     "text": "No injury? Raise their legs on a bag or chair.",
+     "keyword": "RAISE",
+     "tl": "Walang pinsala? Itaas ang binti sa bag o upuan.",
+     "kwTl": "ITAAS",
+     "kwTlStatus": "rex-v2",
+     "why": "sends blood back to the brain; only for a simple faint, not after injury."
+    },
+    {
+     "text": "Loosen tight clothes. Give fresh air.",
+     "keyword": "LOOSEN",
+     "tl": "Luwagan ang masikip na damit. Bigyan ng hangin.",
+     "kwTl": "LUWAGAN",
+     "kwTlStatus": "rex-v2",
+     "why": "helps breathing and circulation."
+    },
+    {
+     "text": "Not awake in two minutes? Check breathing.",
+     "keyword": "BREATHING?",
+     "tl": "Hindi gising sa loob ng dalawang minuto? Tingnan ang paghinga.",
+     "kwTl": "HINGA?",
+     "kwTlStatus": "rex-v2",
+     "check": "BREATHING",
+     "why": "may be something more serious than a faint."
+    },
+    {
+     "text": "When awake, keep them lying down for ten minutes.",
+     "keyword": "KEEP",
+     "tl": "Pag gising na, pahigain pa nang sampung minuto.",
+     "kwTl": "HIGA",
+     "kwTlStatus": "rex-v2",
+     "why": "standing too fast can cause another faint."
+    },
+    {
+     "text": "Sit up slowly. Give small sips of water.",
+     "keyword": "SIT",
+     "tl": "Dahan-dahang paupuin. Painumin ng kaunting tubig.",
+     "kwTl": "UPO",
+     "kwTlStatus": "rex-v2",
+     "why": "standing too fast can cause another faint."
+    }
+   ],
+   "src": "Content v2 §6 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "collapsed",
+    "dizzy",
+    "faint",
+    "fainted",
+    "fainting",
+    "himatay",
+    "kuyap",
+    "malay",
+    "nahimatay",
+    "nakuyapan",
+    "nalipong",
+    "nawalan",
+    "ng",
+    "out",
+    "passed",
+    "syncope"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Fainting / syncope"
+   ],
+   "categoryName": "Medical emergencies",
+   "doNotTl": [
+    "Huwag itaas ang binti kung nasaktan sa pagbagsak; walang ipapakain o ipapainom hangga't hindi lubos na gising; huwag patayuin nang mabilis."
+   ],
+   "titleTl": "Pagkahimatay"
+  },
+  {
+   "id": "choking",
+   "title": "Choking",
+   "category": 2,
+   "priority": 7,
+   "signs": [],
+   "nearby": [
+    "chair back or table edge (if alone)",
+    "clear floor space to lower them",
+    "phone on speaker"
+   ],
+   "doNot": [
+    "Do NOT: hit the back of someone who is still coughing well, give water, do blind finger sweeps, or give belly thrusts to a baby."
+   ],
+   "call911When": null,
+   "detail": [
+    "Can cough or talk? Encourage coughing, stay with them.",
+    "Can't breathe, cough or speak (hands on throat):",
+    "1. Ask \"Choking ka?\" and tell them you'll help. Call 911.",
+    "2. 5 BACK BLOWS: lean them forward, hit hard between shoulder blades with heel of hand.",
+    "3. 5 ABDOMINAL THRUSTS: stand behind, fist just above belly button, other hand over it, pull sharply in and up.",
+    "4. Repeat 5 + 5 until object comes out or they collapse.",
+    "5. Pregnant or very large person: chest thrusts (hands on center of chest) instead of belly.",
+    "6. Collapses? Lower to ground, start CPR (card 10). Look in mouth before breaths; remove only what you can see.",
+    "Alone and choking? Thrust your belly against a chair back or table edge.",
+    "Child 1 yr and up: same as adult, 5 back blows + 5 abdominal thrusts (kneel to their height).",
+    "Baby under 1 yr: face-down on your forearm, head low, 5 back blows; flip face-up, 5 chest thrusts with the heel of one hand on the center of the chest. Repeat until it comes out.",
+    "Do NOT: hit the back of someone who is still coughing well, give water, do blind finger sweeps, or give belly thrusts to a baby.",
+    "Nearby items: chair back or table edge (if alone), clear floor space to lower them, phone on speaker.",
+    "Sources: AHA CPR & ECC Guidelines 2025 (Adult and Pediatric BLS); ERC Guidelines 2025; ILCOR 2025."
+   ],
+   "steps": [
+    {
+     "text": "Can they cough or talk? Tell them to keep coughing.",
+     "keyword": "COUGH",
+     "tl": "Nakakaubo o nakakapagsalita? Sabihing ituloy ang pag-ubo.",
+     "kwTl": "UMUBO",
+     "kwTlStatus": "rex-v2",
+     "why": "a strong cough clears the airway best."
+    },
+    {
+     "text": "Can't breathe or speak? Say you will help.",
+     "keyword": "HELP",
+     "tl": "Hindi makahinga o makapagsalita? Sabihing tutulungan mo siya.",
+     "kwTl": "TULONG",
+     "kwTlStatus": "rex-v2",
+     "why": "a calm patient who knows what's coming cooperates better."
+    },
+    {
+     "text": "Lean them forward.",
+     "keyword": "LEAN",
+     "tl": "Iyuko siya nang pasulong.",
+     "kwTl": "IYUKO",
+     "kwTlStatus": "rex-v2",
+     "why": "gravity helps the object come out, not go deeper."
+    },
+    {
+     "text": "Give five hard back blows between the shoulder blades.",
+     "keyword": "BACK BLOWS",
+     "tl": "Limang malakas na palo sa pagitan ng balikat.",
+     "kwTl": "PALO",
+     "kwTlStatus": "rex-v2",
+     "count": 5,
+     "why": "sharp force can dislodge the object."
+    },
+    {
+     "text": "Stand behind. Fist just above the belly button.",
+     "keyword": "FIST",
+     "tl": "Pumuwesto sa likod. Kamao sa itaas ng pusod.",
+     "kwTl": "KAMAO",
+     "kwTlStatus": "rex-v2",
+     "why": "push air up from the lungs to pop the object out."
+    },
+    {
+     "text": "Give five sharp thrusts in and up.",
+     "keyword": "THRUSTS",
+     "tl": "Limang mabilis na tulak papasok at pataas.",
+     "kwTl": "TULAK",
+     "kwTlStatus": "rex-v2",
+     "count": 5,
+     "why": "push air up from the lungs to pop the object out."
+    },
+    {
+     "text": "Repeat back blows and thrusts until it comes out.",
+     "keyword": "REPEAT",
+     "tl": "Ulitin ang palo at tulak hanggang lumabas.",
+     "kwTl": "ULITIN",
+     "kwTlStatus": "rex-v2",
+     "why": "each round can loosen it a little more."
+    },
+    {
+     "text": "Pregnant or large person? Push on the chest instead.",
+     "keyword": "CHEST",
+     "tl": "Buntis o malaki ang katawan? Sa dibdib itulak.",
+     "kwTl": "DIBDIB",
+     "kwTlStatus": "rex-v2",
+     "why": "belly thrusts can harm the baby or won't reach."
+    },
+    {
+     "text": "They collapse? Lower them down. Start CPR.",
+     "keyword": "CPR",
+     "tl": "Bumagsak siya? Ihiga. Simulan ang CPR.",
+     "kwTl": "CPR",
+     "kwTlStatus": "rex-v2",
+     "why": "compressions also push on the blockage."
+    },
+    {
+     "text": "Baby under one? Five back blows, five chest thrusts, heel of hand.",
+     "keyword": "BABY",
+     "tl": "Sanggol? Limang palo sa likod, limang diin sa dibdib gamit ang palad.",
+     "kwTl": "SANGGOL",
+     "kwTlStatus": "rex-v2",
+     "count": 5,
+     "why": "heel of one hand gives enough force; belly thrusts can hurt a baby's organs.",
+     "tlSrc": "rex-v2.1"
+    }
+   ],
+   "src": "Content v2 §7 + Voice v2",
+   "sources": [
+    "AHA CPR & ECC Guidelines 2025 (Adult and Pediatric BLS)",
+    "ERC Guidelines 2025",
+    "ILCOR 2025"
+   ],
+   "keywords": [
+    "bilaok",
+    "breathe",
+    "bulunan",
+    "can't",
+    "cant",
+    "choke",
+    "choked",
+    "choking",
+    "food",
+    "nabilaukan",
+    "nabulunan",
+    "natuk-an",
+    "speak",
+    "stuck",
+    "throat",
+    "tuk-an"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Choking",
+    "Pediatric choking"
+   ],
+   "categoryName": "Medical emergencies",
+   "nearbyTl": [
+    "sandalan ng upuan o gilid ng mesa (kung mag-isa)",
+    "maluwag na sahig",
+    "teleponong naka-speaker"
+   ],
+   "doNotTl": [
+    "Huwag paluin ang likod kung malakas pa siyang umuubo; huwag painumin ng tubig; huwag kapain ang lalamunan ng daliri; huwag itulak ang tiyan ng sanggol."
+   ],
+   "titleTl": "Nabulunan"
+  },
+  {
+   "id": "seizures",
+   "title": "Seizures",
+   "category": 2,
+   "priority": 8,
+   "signs": [],
+   "nearby": [
+    "jacket/bag for head",
+    "phone timer"
+   ],
+   "doNot": [
+    "Do NOT hold them down.",
+    "Do NOT put anything in the mouth (no spoon, no fingers)."
+   ],
+   "call911When": "over 5 minutes, another seizure follows, first-ever seizure, injured, pregnant, in water, or not breathing normally after.",
+   "detail": [
+    "1. Stay calm. Note the start time.",
+    "2. Clear the area of hard/sharp things. Cushion the head (bag, jacket).",
+    "3. Do NOT hold them down. Do NOT put anything in the mouth (no spoon, no fingers).",
+    "4. Loosen tight collar.",
+    "5. When jerking stops: roll on their side (recovery position). Stay until fully awake.",
+    "6. Call 911 if: over 5 minutes, another seizure follows, first-ever seizure, injured, pregnant, in water, or not breathing normally after.",
+    "Nearby items: jacket/bag for head, phone timer.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid."
+   ],
+   "steps": [
+    {
+     "text": "Stay calm. Timer started.",
+     "keyword": "TIMER",
+     "tl": "Manatiling kalmado. Nagsimula na ang timer.",
+     "kwTl": "TIMER",
+     "kwTlStatus": "rex-v2",
+     "timer": {
+      "kind": "SEIZURE",
+      "alertAt": 300
+     },
+     "why": "seizure length decides if it's an emergency."
+    },
+    {
+     "text": "Move hard objects away.",
+     "keyword": "MOVE",
+     "tl": "Ilayo ang matitigas na bagay.",
+     "kwTl": "ILAYO",
+     "kwTlStatus": "rex-v2",
+     "why": "most seizure injuries come from hitting things."
+    },
+    {
+     "text": "Put something soft under their head.",
+     "keyword": "CUSHION",
+     "tl": "Lagyan ng malambot ang ilalim ng ulo.",
+     "kwTl": "UNAN",
+     "kwTlStatus": "rex-v2",
+     "why": "most seizure injuries come from hitting things."
+    },
+    {
+     "text": "Do not hold them down.",
+     "keyword": "DON'T HOLD",
+     "tl": "Huwag siyang pigilan.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "can break bones or hurt you."
+    },
+    {
+     "text": "Put nothing in their mouth.",
+     "keyword": "NOTHING",
+     "tl": "Walang ilalagay sa bibig.",
+     "kwTl": "WALA",
+     "kwTlStatus": "rex-v2",
+     "why": "they can't swallow their tongue; objects cause choking and broken teeth."
+    },
+    {
+     "text": "Shaking stopped? Roll them onto their side.",
+     "keyword": "SIDE",
+     "tl": "Tumigil ang panginginig? Itagilid siya.",
+     "kwTl": "ITAGILID",
+     "kwTlStatus": "rex-v2",
+     "why": "lets saliva or vomit drain out."
+    },
+    {
+     "text": "Stay until they are fully awake.",
+     "keyword": "STAY",
+     "tl": "Samahan hanggang tuluyang magising.",
+     "kwTl": "SAMAHAN",
+     "kwTlStatus": "rex-v2",
+     "why": "confusion after a seizure can last minutes; they may wander or vomit."
+    },
+    {
+     "text": "Over five minutes? Call 911.",
+     "keyword": "5 MIN",
+     "tl": "Lagpas limang minuto? Tumawag sa 911.",
+     "kwTl": "5 MINUTO",
+     "kwTlStatus": "rex-v2",
+     "auto": "SEIZURE_5MIN",
+     "why": "risk of brain injury; they need medicine fast."
+    }
+   ],
+   "src": "Content v2 §8 + Voice v2",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "convulsing",
+    "convulsion",
+    "epilepsy",
+    "fit",
+    "gikombulsyon",
+    "jerking",
+    "kisay",
+    "kombulsyon",
+    "kumbulsyon",
+    "kuyog",
+    "nanginginig",
+    "nangingisay",
+    "nangisay",
+    "ngisay",
+    "seizure",
+    "seizures",
+    "shaking"
+   ],
+   "links": [
+    "recovery"
+   ],
+   "topics": [
+    "Seizures"
+   ],
+   "categoryName": "Medical emergencies",
+   "titleTl": "Kombulsyon"
+  },
+  {
+   "id": "heat_exhaustion",
+   "title": "Heat exhaustion",
+   "category": 3,
+   "priority": 9,
+   "signs": [
+    "heavy sweat, dizziness, headache, nausea, weak, cool clammy skin."
+   ],
+   "nearby": [
+    "bottled water",
+    "cold drinks",
+    "ice from store",
+    "water drum or tub",
+    "tarp or plastic sheet",
+    "umbrella shade",
+    "folder/cardboard fan"
+   ],
+   "doNot": [
+    "Do NOT: give alcohol or energy drinks, leave them alone, or send them back on duty the same day."
+   ],
+   "call911When": null,
+   "detail": [
+    "HEAT EXHAUSTION: heavy sweat, dizziness, headache, nausea, weak, cool clammy skin.",
+    "1. Move to shade or aircon.",
+    "2. Remove extra clothes, vest, gear.",
+    "3. Fan and wet the skin.",
+    "4. Sip cool water or oral rehydration/sports drink if awake and not vomiting.",
+    "5. Better in 30 min? Rest. Not better = treat as heat stroke.",
+    "Do NOT: give alcohol or energy drinks, leave them alone, or send them back on duty the same day.",
+    "Nearby items: bottled water, cold drinks, ice from store, water drum or tub, tarp or plastic sheet, umbrella shade, folder/cardboard fan."
+   ],
+   "steps": [
+    {
+     "text": "Move them to shade or aircon.",
+     "keyword": "MOVE",
+     "tl": "Dalhin sa lilim o aircon.",
+     "kwTl": "LILIM",
+     "kwTlStatus": "rex-v2",
+     "why": "stops more heat building up."
+    },
+    {
+     "text": "Remove extra clothes and gear.",
+     "keyword": "REMOVE",
+     "tl": "Tanggalin ang sobrang damit at gamit.",
+     "kwTl": "TANGGALIN",
+     "kwTlStatus": "rex-v2",
+     "why": "stops more heat building up."
+    },
+    {
+     "text": "Fan them and wet their skin.",
+     "keyword": "FAN",
+     "tl": "Paypayan at basain ang balat.",
+     "kwTl": "PAYPAYAN",
+     "kwTlStatus": "rex-v2",
+     "why": "evaporation cools the body."
+    },
+    {
+     "text": "Give cool water sips if awake and not vomiting.",
+     "keyword": "GIVE",
+     "tl": "Painumin ng malamig na tubig kung gising at hindi nagsusuka.",
+     "kwTl": "PAINUMIN",
+     "kwTlStatus": "rex-v2",
+     "why": "replaces lost fluid without causing vomiting."
+    },
+    {
+     "text": "Not better in thirty minutes? Treat as heat stroke.",
+     "keyword": "WORSE?",
+     "tl": "Hindi gumaling sa tatlumpung minuto? Ituring na heat stroke.",
+     "kwTl": "LUMALA?",
+     "kwTlStatus": "rex-v2",
+     "why": "heat exhaustion can turn into heat stroke."
+    }
+   ],
+   "src": "Content v2 §9 + Voice v2 HEAT",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "ILCOR 2025"
+   ],
+   "keywords": [
+    "dizzy",
+    "heat",
+    "hilo",
+    "hot",
+    "init",
+    "mainit",
+    "nahilo",
+    "naiinitan",
+    "pagod",
+    "sobrang",
+    "sun",
+    "sweating"
+   ],
+   "links": [
+    "heat_stroke"
+   ],
+   "topics": [
+    "Heat exhaustion"
+   ],
+   "categoryName": "Environmental emergencies",
+   "nearbyTl": [
+    "tubig",
+    "malamig na inumin",
+    "yelo mula sa tindahan",
+    "drum o batya ng tubig",
+    "trapal o plastik",
+    "lilim ng payong",
+    "karton na pamaypay"
+   ],
+   "doNotTl": [
+    "Huwag bigyan ng alak o energy drink; huwag iwan; huwag pabalikin sa duty sa parehong araw."
+   ],
+   "titleTl": "Init"
+  },
+  {
+   "id": "heat_stroke",
+   "title": "Heat stroke",
+   "category": 3,
+   "priority": 0,
+   "signs": [
+    "confused, slurred speech, collapse, seizure, very hot skin (dry OR sweaty)."
+   ],
+   "nearby": [
+    "bottled water",
+    "cold drinks",
+    "ice from store",
+    "water drum or tub",
+    "tarp or plastic sheet",
+    "umbrella shade",
+    "folder/cardboard fan"
+   ],
+   "doNot": [
+    "Don't give drinks if confused."
+   ],
+   "call911When": "confused, slurred speech, collapse, seizure, very hot skin (dry OR sweaty)",
+   "detail": [
+    "HEAT STROKE (EMERGENCY): confused, slurred speech, collapse, seizure, very hot skin (dry OR sweaty).",
+    "1. Call 911.",
+    "2. COOL FAST: put them in cold water up to the neck (tub, water drum, inflatable pool). No tub? Wrap them in a tarp or plastic sheet with ice water. Otherwise soak with cold water, fan hard, ice or cold cans in cloth at neck, armpits, groin. Keep cooling about 15 minutes or until they are alert.",
+    "3. Don't give drinks if confused. Recovery position if drowsy.",
+    "Nearby items: bottled water, cold drinks, ice from store, water drum or tub, tarp or plastic sheet, umbrella shade, folder/cardboard fan.",
+    "Sources: AHA/Red Cross First Aid Guidelines 2024; ERC Guidelines 2025 First Aid; ILCOR 2025."
+   ],
+   "steps": [
+    {
+     "text": "Confused or collapsed in heat? Call 911 now.",
+     "keyword": "CALL 911",
+     "tl": "Lito o bumagsak sa init? Tumawag sa 911 ngayon.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "the brain is overheating; cooling fast saves lives."
+    },
+    {
+     "text": "Put them in cold water up to the neck.",
+     "keyword": "COOL",
+     "tl": "Ilubog sa malamig na tubig hanggang leeg.",
+     "kwTl": "ILUBOG",
+     "kwTlStatus": "rex-v2",
+     "why": "cold water pulls heat out faster than anything else."
+    },
+    {
+     "text": "No tub? Soak them with cold water and fan hard.",
+     "keyword": "SOAK",
+     "tl": "Walang batya? Basain ng malamig na tubig, paypayan nang malakas.",
+     "kwTl": "BASAIN",
+     "kwTlStatus": "rex-v2",
+     "why": "evaporation cools the body.",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Add ice or cold packs at neck, armpits, and groin.",
+     "keyword": "ICE",
+     "tl": "Lagyan ng yelo o malamig sa leeg, kilikili, at singit.",
+     "kwTl": "YELO",
+     "kwTlStatus": "rex-v2",
+     "why": "big blood vessels are close to the skin there; use it when there's no tub."
+    },
+    {
+     "text": "No drinks if confused. Lay them on their side.",
+     "keyword": "NO DRINKS",
+     "tl": "Walang inumin kung lito. Itagilid siya.",
+     "kwTl": "BAWAL",
+     "kwTlStatus": "rex-v2",
+     "why": "they may choke."
+    },
+    {
+     "text": "Keep cooling until they are alert, about fifteen minutes.",
+     "keyword": "15 MIN",
+     "tl": "Ituloy ang pagpapalamig hanggang gising na, mga labinlimang minuto.",
+     "kwTl": "15 MINUTO",
+     "kwTlStatus": "rex-v2",
+     "why": "stopping early lets the temperature climb again."
+    }
+   ],
+   "src": "Content v2 §9 + Voice v2 HEAT",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "ILCOR 2025"
+   ],
+   "keywords": [
+    "collapsed",
+    "confused",
+    "heat",
+    "heatstroke",
+    "hot",
+    "in",
+    "init",
+    "lito",
+    "na-heat",
+    "stroke",
+    "very"
+   ],
+   "links": [
+    "recovery"
+   ],
+   "topics": [
+    "Heat stroke"
+   ],
+   "categoryName": "Environmental emergencies",
+   "nearbyTl": [
+    "tubig",
+    "malamig na inumin",
+    "yelo mula sa tindahan",
+    "drum o batya ng tubig",
+    "trapal o plastik",
+    "lilim ng payong",
+    "karton na pamaypay"
+   ],
+   "doNotTl": [
+    "Huwag bigyan ng alak o energy drink; huwag iwan; huwag pabalikin sa duty sa parehong araw."
+   ],
+   "titleTl": "Init"
+  },
+  {
+   "id": "cpr",
+   "title": "Cardiac arrest (CPR)",
+   "category": 2,
+   "priority": 10,
+   "signs": [],
+   "nearby": [
+    "phone on speaker",
+    "firm floor",
+    "AED (mall, airport, office, terminal)",
+    "jacket to kneel on",
+    "cloth to wipe the chest dry for AED pads"
+   ],
+   "doNot": [
+    "Don't stop until help takes over or they breathe.",
+    "Do NOT: do CPR on a bed or sofa (move them to the floor), stop pushing to check for a pulse, or lean on the chest between pushes."
+   ],
+   "call911When": null,
+   "detail": [
+    "1. Tap and shout. No response and not breathing normally (or only gasping)?",
+    "2. Call 911, put phone on speaker. Send someone to find an AED (malls, airports, offices).",
+    "3. HANDS-ONLY CPR: heel of hand center of chest, other hand on top, arms straight.",
+    "- Push hard: 5–6 cm deep, fast: 100–120 per minute (beat of \"Stayin' Alive\").",
+    "- Let chest fully rise between pushes.",
+    "4. Trained and willing? 30 pushes then 2 breaths. Not trained? Just push nonstop.",
+    "5. AED arrives: turn on and follow voice. Keep pushing until it says stop.",
+    "6. Swap pushers every 2 minutes if possible. Don't stop until help takes over or they breathe.",
+    "APP: add a 110 bpm metronome beep + vibration on this card.",
+    "Do NOT: do CPR on a bed or sofa (move them to the floor), stop pushing to check for a pulse, or lean on the chest between pushes.",
+    "Nearby items: phone on speaker, firm floor, AED (mall, airport, office, terminal), jacket to kneel on, cloth to wipe the chest dry for AED pads.",
+    "Sources: AHA CPR & ECC Guidelines 2025 (Adult BLS); ERC Guidelines 2025 BLS; ILCOR 2025."
+   ],
+   "steps": [
+    {
+     "text": "Tap and shout. No answer?",
+     "keyword": "TAP",
+     "tl": "Tapikin at sigawan. Walang sagot?",
+     "kwTl": "TAPIKIN",
+     "kwTlStatus": "rex-v2",
+     "why": "confirms they truly can't respond before you start."
+    },
+    {
+     "text": "Not breathing, or only gasping?",
+     "keyword": "BREATHING?",
+     "tl": "Hindi humihinga, o humihingal lang?",
+     "kwTl": "HINGA?",
+     "kwTlStatus": "rex-v2",
+     "why": "it's a sign the heart has stopped."
+    },
+    {
+     "text": "Call 911. Put the phone on speaker.",
+     "keyword": "CALL 911",
+     "tl": "Tumawag sa 911. I-speaker ang telepono.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "rex-v2",
+     "why": "dispatcher can coach you while your hands work."
+    },
+    {
+     "text": "Send someone to find an AED.",
+     "keyword": "AED",
+     "tl": "Magpahanap ng AED.",
+     "kwTl": "AED",
+     "kwTlStatus": "rex-v2",
+     "why": "a shock can restart a heart in a deadly rhythm."
+    },
+    {
+     "text": "Heel of hand on the center of the chest.",
+     "keyword": "HAND",
+     "tl": "Palad sa gitna ng dibdib.",
+     "kwTl": "PALAD",
+     "kwTlStatus": "rex-v2",
+     "why": "pushes directly on the heart."
+    },
+    {
+     "text": "Other hand on top. Arms straight.",
+     "keyword": "ARMS",
+     "tl": "Ipatong ang isa pang kamay. Tuwid ang braso.",
+     "kwTl": "IPATONG",
+     "kwTlStatus": "rex-v2",
+     "why": "your body weight does the work, so you tire less."
+    },
+    {
+     "text": "Push hard and fast. Follow the beat.",
+     "keyword": "PUSH",
+     "tl": "Diinan nang malakas at mabilis. Sundan ang tunog.",
+     "kwTl": "DIINAN",
+     "kwTlStatus": "approved",
+     "metronome": true,
+     "why": "shallow pushes don't move enough blood."
+    },
+    {
+     "text": "Let the chest come back up each time.",
+     "keyword": "RECOIL",
+     "tl": "Hayaang umangat ang dibdib bawat diin.",
+     "kwTl": "UMANGAT",
+     "kwTlStatus": "rex-v2",
+     "why": "the heart refills with blood between pushes."
+    },
+    {
+     "text": "Don't stop until help arrives or they breathe.",
+     "keyword": "DON'T STOP",
+     "tl": "Huwag tumigil hanggang dumating ang tulong o huminga siya.",
+     "kwTl": "TULOY",
+     "kwTlStatus": "rex-v2",
+     "why": "every pause drops blood flow to the brain."
+    },
+    {
+     "text": "AED here? Turn it on and follow its voice.",
+     "keyword": "AED",
+     "tl": "May AED na? Buksan at sundin ang boses nito.",
+     "kwTl": "AED",
+     "kwTlStatus": "rex-v2",
+     "why": "a shock can restart a heart in a deadly rhythm."
+    }
+   ],
+   "src": "Content v2 §10 + Voice v2",
+   "sources": [
+    "AHA CPR & ECC Guidelines 2025 (Adult BLS)",
+    "ERC Guidelines 2025 BLS",
+    "ILCOR 2025"
+   ],
+   "trainingExtra": {
+    "metronome": "too slow or too fast moves less blood.",
+    "cpr2min": "tired pushers get shallow without noticing.",
+    "rescueBreaths": "drowning victims and children usually run out of oxygen first."
+   },
+   "keywords": [
+    "arrest",
+    "breathing",
+    "cardiac",
+    "cpr",
+    "dead",
+    "gasping",
+    "ginhawa",
+    "heart",
+    "hindi",
+    "humihinga",
+    "malay",
+    "nagginhawa",
+    "no",
+    "not",
+    "patay",
+    "pulse",
+    "stopped",
+    "unresponsive",
+    "wala",
+    "walang",
+    "walay"
+   ],
+   "links": [
+    "recovery"
+   ],
+   "topics": [
+    "Cardiac arrest"
+   ],
+   "categoryName": "Medical emergencies",
+   "nearbyTl": [
+    "teleponong naka-speaker",
+    "matigas na sahig",
+    "AED (mall, airport, opisina, terminal)",
+    "jacket na luluhuran",
+    "tela para patuyuin ang dibdib"
+   ],
+   "doNotTl": [
+    "Huwag mag-CPR sa kama o sofa (ilipat sa sahig); huwag tumigil para kapain ang pulso; huwag sumandal sa dibdib sa pagitan ng diin."
+   ],
+   "titleTl": "Cardiac Arrest"
+  },
+  {
+   "id": "heart_attack",
+   "title": "Heart attack",
+   "category": 2,
+   "priority": 0,
+   "signs": [
+    "chest pain/pressure, pain to arm/jaw, sweaty, short of breath."
+   ],
+   "nearby": [
+    "chair or wall to lean on",
+    "their own aspirin",
+    "loosened collar and belt",
+    "phone on speaker"
+   ],
+   "doNot": [
+    "Told to avoid aspirin, or unsure? Don't give it.",
+    "Do NOT: give aspirin to a child, or to anyone allergic, bleeding, or told to avoid it; let them walk around or drive themselves."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "chest pain/pressure, pain to arm/jaw, sweaty, short of breath. Call 911. Sit them half-up, calm, loosen clothes. Alert adult, no allergy or bleeding problem? Chew aspirin 162–325 mg. That is one 300–325 mg tablet, or 2–4 low-dose 81 mg. Told to avoid aspirin, or unsure? Don't give it. Collapse = CPR."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL",
+     "tl": "Tumawag sa 911.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Sit them half-up, calm, loosen clothes.",
+     "keyword": "SIT",
+     "tl": "Paupuin nang medyo nakasandal, pakalmahin, luwagan ang damit.",
+     "kwTl": "PAUPUIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Alert adult, no allergy or bleeding problem? Chew aspirin 162–325 mg.",
+     "keyword": "ASPIRIN",
+     "tl": "Gising na adult, walang allergy o pagdurugo? Ipanguya ang aspirin.",
+     "kwTl": "IPANGUYA",
+     "kwTlStatus": "derived-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "That is one 300–325 mg tablet, or 2–4 low-dose 81 mg.",
+     "keyword": "DOSE",
+     "tl": "Isang tabletang 300 mg, o dalawa hanggang apat na 81 mg.",
+     "kwTl": "TABLETA",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Told to avoid aspirin, or unsure? Don't give it.",
+     "keyword": "DON'T GIVE",
+     "tl": "Pinagbawalan sa aspirin, o hindi sigurado? Huwag ibigay.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Collapse = CPR.",
+     "keyword": "CPR",
+     "tl": "Bumagsak = CPR.",
+     "kwTl": "CPR",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: HEART ATTACK",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "ang",
+    "arm",
+    "atake",
+    "attack",
+    "chest",
+    "dibdib",
+    "dughan",
+    "heart",
+    "jaw",
+    "masakit",
+    "pain",
+    "pressure",
+    "puso",
+    "sa",
+    "sakit"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Heart attack",
+    "Chest pain"
+   ],
+   "categoryName": "Medical emergencies",
+   "signsTl": [
+    "Sakit o bigat sa dibdib, sakit hanggang braso o panga, pawisan, hirap huminga."
+   ],
+   "doNotTl": [
+    "Huwag bigyan ng aspirin ang bata, may allergy, dumudugo, o pinagbawalan; huwag siyang palakarin o pagmanehuhin."
+   ],
+   "nearbyTl": [
+    "upuan o pader na sandalan",
+    "sariling aspirin niya",
+    "niluwagang kuwelyo at sinturon"
+   ]
+  },
+  {
+   "id": "stroke",
+   "title": "Stroke: use B.E. F.A.S.T.",
+   "category": 2,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "phone clock to note the start time",
+    "jacket or bag under the head if on their side"
+   ],
+   "doNot": [
+    "Nothing by mouth."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "Balance loss, Eyes (vision loss), Face droop, Arm weak, Speech slurred, Time: call 911 now, note time symptoms started. Nothing by mouth. Lay on side if drowsy."
+   ],
+   "steps": [
+    {
+     "text": "Balance loss, Eyes (vision loss), Face droop, Arm weak, Speech slurred, Time: call 911 now, note time symptoms started.",
+     "keyword": "BE FAST"
+    },
+    {
+     "text": "Nothing by mouth.",
+     "keyword": "NOTHING"
+    },
+    {
+     "text": "Lay on side if drowsy.",
+     "keyword": "LAY"
+    }
+   ],
+   "src": "Content v2 More emergencies: STROKE: Use B.E. F.A.S.T.",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "arm",
+    "droop",
+    "drooping",
+    "face",
+    "istrok",
+    "nangiwi",
+    "ngiwi",
+    "numb",
+    "one",
+    "side",
+    "slurred",
+    "speech",
+    "stroke",
+    "utal",
+    "weak"
+   ],
+   "links": [
+    "recovery"
+   ],
+   "topics": [
+    "Stroke"
+   ],
+   "categoryName": "Medical emergencies",
+   "nearbyTl": [
+    "orasan ng telepono para sa oras ng simula",
+    "jacket o bag sa ilalim ng ulo kung nakatagilid"
+   ]
+  },
+  {
+   "id": "low_sugar",
+   "title": "Low blood sugar",
+   "category": 2,
+   "priority": 0,
+   "signs": [
+    "diabetic, shaky, sweaty, confused"
+   ],
+   "nearby": [
+    "sugar sachets",
+    "juice",
+    "regular soft drink",
+    "candy",
+    "condensed milk",
+    "bread or crackers after"
+   ],
+   "doNot": [
+    "Not awake = nothing by mouth, call 911, recovery position.",
+    "Do NOT: give anything by mouth if they can't swallow or are not awake; use diet or sugar-free drinks."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "if awake and can swallow: give 15–20 g sugar now. That is 4 tsp sugar in water or ½ cup juice. Regular soft drink works, not diet. Recheck in 15 min; still shaky, give sugar again. Better? Give food. Not awake = nothing by mouth, call 911, recovery position."
+   ],
+   "steps": [
+    {
+     "text": "If awake and can swallow: give 15–20 g sugar now.",
+     "keyword": "SUGAR",
+     "tl": "Gising at nakakalunok? Bigyan ng asukal ngayon.",
+     "kwTl": "ASUKAL",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "That is 4 tsp sugar in water or ½ cup juice.",
+     "keyword": "4 TSP",
+     "tl": "Apat na kutsaritang asukal sa tubig, o kalahating tasang juice.",
+     "kwTl": "4 KUTSARITA",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Regular soft drink works, not diet.",
+     "keyword": "NOT DIET",
+     "tl": "Puwede ang regular na softdrinks, hindi diet.",
+     "kwTl": "HINDI DIET",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Recheck in 15 min; still shaky, give sugar again.",
+     "keyword": "15 MIN",
+     "tl": "Pagkalipas ng labinlimang minuto, nanginginig pa? Bigyan ulit ng asukal.",
+     "kwTl": "15 MINUTO",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Better? Give food.",
+     "keyword": "FOOD",
+     "tl": "Bumuti? Pakainin.",
+     "kwTl": "PAKAININ",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Not awake = nothing by mouth, call 911, recovery position.",
+     "keyword": "NOTHING",
+     "tl": "Hindi gising = walang ipapainom o ipapakain, tumawag sa 911, recovery position.",
+     "kwTl": "WALA",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: LOW BLOOD SUGAR (diabetic, shaky, sweaty, confused)",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid",
+    "ADA Standards of Care 2025"
+   ],
+   "keywords": [
+    "asukal",
+    "diabetes",
+    "diabetic",
+    "high",
+    "hypoglycemia",
+    "insulin",
+    "low",
+    "mababang",
+    "shaky",
+    "sugar"
+   ],
+   "links": [
+    "recovery"
+   ],
+   "topics": [
+    "High or low blood sugar",
+    "Diabetic emergencies"
+   ],
+   "categoryName": "Medical emergencies",
+   "signsTl": [
+    "diabetic, nanginginig, pawisan, lito."
+   ],
+   "doNotTl": [
+    "Walang ipapasubo kung hindi makalunok o hindi gising; huwag gumamit ng diet o sugar-free na inumin."
+   ],
+   "nearbyTl": [
+    "sachet ng asukal",
+    "juice",
+    "regular na softdrinks",
+    "kendi",
+    "condensed milk",
+    "tinapay o biskwit pagkatapos"
+   ]
+  },
+  {
+   "id": "asthma",
+   "title": "Asthma / difficulty breathing",
+   "category": 2,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "chair or table to lean on",
+    "their own inhaler",
+    "fan or fresh air"
+   ],
+   "doNot": [
+    "Do NOT: lay them flat, crowd them, or leave them alone."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "sit upright, leaning forward. Help use their own inhaler. Calm slow breaths. No improvement or lips blue: call 911."
+   ],
+   "steps": [
+    {
+     "text": "Sit upright, leaning forward.",
+     "keyword": "SIT"
+    },
+    {
+     "text": "Help use their own inhaler.",
+     "keyword": "HELP"
+    },
+    {
+     "text": "Calm slow breaths.",
+     "keyword": "CALM"
+    },
+    {
+     "text": "No improvement or lips blue: call 911.",
+     "keyword": "CALL 911"
+    }
+   ],
+   "src": "Content v2 More emergencies: ASTHMA / DIFFICULTY BREATHING",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "asthma",
+    "breath",
+    "breathing",
+    "difficulty",
+    "hapo",
+    "hika",
+    "hingal",
+    "hirap",
+    "hubak",
+    "huminga",
+    "inhaler",
+    "of",
+    "short",
+    "wheezing"
+   ],
+   "links": [],
+   "topics": [
+    "Asthma attacks",
+    "Difficulty breathing"
+   ],
+   "categoryName": "Medical emergencies",
+   "doNotTl": [
+    "Huwag siyang ihiga, huwag pagkumpulan, huwag iwan."
+   ],
+   "nearbyTl": [
+    "upuan o mesang masasandalan",
+    "sariling inhaler",
+    "pamaypay o sariwang hangin"
+   ]
+  },
+  {
+   "id": "anaphylaxis",
+   "title": "Severe allergy (anaphylaxis)",
+   "category": 2,
+   "priority": 0,
+   "signs": [
+    "swelling of face/lips/throat, wheezing, hives, collapse."
+   ],
+   "nearby": [
+    "their own epinephrine pen",
+    "bag under the legs",
+    "jacket for warmth"
+   ],
+   "doNot": [
+    "Do NOT: make them stand or walk, even if they feel better; give food or drink if breathing is hard."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "swelling of face/lips/throat, wheezing, hives, collapse. Call 911. Use their own epinephrine pen (outer thigh, through clothes). Lay flat with legs up (sit up if breathing hard). Second dose after 5–15 min if no improvement and available."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL"
+    },
+    {
+     "text": "Use their own epinephrine pen (outer thigh, through clothes).",
+     "keyword": "USE"
+    },
+    {
+     "text": "Lay flat with legs up (sit up if breathing hard).",
+     "keyword": "LAY"
+    },
+    {
+     "text": "Second dose after 5–15 min if no improvement and available.",
+     "keyword": "SECOND"
+    }
+   ],
+   "src": "Content v2 More emergencies: SEVERE ALLERGY (ANAPHYLAXIS)",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "allergic",
+    "allergy",
+    "anaphylaxis",
+    "epipen",
+    "hives",
+    "lips",
+    "namamaga",
+    "pantal",
+    "reaction",
+    "swelling"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Severe allergic reactions / anaphylaxis"
+   ],
+   "categoryName": "Medical emergencies",
+   "doNotTl": [
+    "Huwag patayuin o palakarin kahit gumaan ang pakiramdam; walang ipapakain o ipapainom kung hirap huminga."
+   ],
+   "nearbyTl": [
+    "sariling epinephrine pen",
+    "bag sa ilalim ng binti",
+    "jacket"
+   ]
+  },
+  {
+   "id": "poisoning",
+   "title": "Poisoning / swallowed chemical",
+   "category": 2,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "the container or label",
+    "bottled water or tap to flush",
+    "plastic bag over your hand"
+   ],
+   "doNot": [
+    "Do NOT make them vomit."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "call 911. Do NOT make them vomit. Keep the container to show responders. Chemical on skin/eyes: flush with water 15–20 min."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL"
+    },
+    {
+     "text": "Do NOT make them vomit.",
+     "keyword": "DON'T MAKE"
+    },
+    {
+     "text": "Keep the container to show responders.",
+     "keyword": "KEEP"
+    },
+    {
+     "text": "Chemical on skin/eyes: flush with water 15–20 min.",
+     "keyword": "CHEMICAL"
+    }
+   ],
+   "src": "Content v2 More emergencies: POISONING / SWALLOWED CHEMICAL",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "bleach",
+    "chemical",
+    "exposure",
+    "gasolina",
+    "kerosene",
+    "lason",
+    "nakainom",
+    "nakalunok",
+    "nalason",
+    "overdose",
+    "pesticide",
+    "poison",
+    "poisoning",
+    "swallowed"
+   ],
+   "links": [
+    "eye"
+   ],
+   "topics": [
+    "Poisoning",
+    "Chemical exposure"
+   ],
+   "categoryName": "Medical emergencies",
+   "nearbyTl": [
+    "lalagyan o label",
+    "tubig o gripo pambanlaw",
+    "plastik sa kamay"
+   ]
+  },
+  {
+   "id": "head",
+   "title": "Head injury",
+   "category": 1,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "clean cloth",
+    "cold drink can in cloth",
+    "rolled towels beside the head"
+   ],
+   "doNot": [
+    "Do NOT: leave them alone, give alcohol, or let them go back on duty the same day."
+   ],
+   "watchFor": [
+    "Watch for: vomiting, confusion, drowsiness, unequal pupils, fluid from ears/nose = 911."
+   ],
+   "call911When": null,
+   "detail": [
+    "press on bleeding gently. Watch for: vomiting, confusion, drowsiness, unequal pupils, fluid from ears/nose = 911. Suspect neck injury, so keep head still."
+   ],
+   "steps": [
+    {
+     "text": "Press on bleeding gently.",
+     "keyword": "PRESS"
+    },
+    {
+     "text": "Watch for: vomiting, confusion, drowsiness, unequal pupils, fluid from ears/nose = 911.",
+     "keyword": "WATCH"
+    },
+    {
+     "text": "Suspect neck injury, so keep head still.",
+     "keyword": "SUSPECT"
+    }
+   ],
+   "src": "Content v2 More emergencies: HEAD INJURY",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "bagok",
+    "bumped",
+    "concussion",
+    "confused",
+    "head",
+    "hit",
+    "injury",
+    "nabagok",
+    "nauntog",
+    "pukpok",
+    "ulo",
+    "untog",
+    "vomiting"
+   ],
+   "links": [
+    "spinal"
+   ],
+   "topics": [
+    "Head injuries"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "doNotTl": [
+    "Huwag iwan, huwag painumin ng alak, huwag pabalikin sa duty sa parehong araw."
+   ],
+   "nearbyTl": [
+    "malinis na tela",
+    "malamig na lata sa tela",
+    "nirolyong tuwalya sa gilid ng ulo"
+   ]
+  },
+  {
+   "id": "spinal",
+   "title": "Spinal injury",
+   "category": 1,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "rolled towels",
+    "jackets or bags on both sides of the head"
+   ],
+   "doNot": [
+    "don't move unless in danger."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "don't move unless in danger. Hold head in line. Keep them talking and still."
+   ],
+   "steps": [
+    {
+     "text": "Don't move unless in danger.",
+     "keyword": "DON'T MOVE"
+    },
+    {
+     "text": "Hold head in line.",
+     "keyword": "HOLD"
+    },
+    {
+     "text": "Keep them talking and still.",
+     "keyword": "KEEP"
+    }
+   ],
+   "src": "Content v2 More emergencies: SPINAL INJURY",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "back",
+    "gulugod",
+    "injury",
+    "leeg",
+    "likod",
+    "neck",
+    "numb",
+    "paralysis",
+    "spinal",
+    "spine",
+    "tingling"
+   ],
+   "links": [],
+   "topics": [
+    "Spinal injuries"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "nearbyTl": [
+    "nirolyong tuwalya",
+    "jacket o bag sa magkabilang gilid ng ulo"
+   ]
+  },
+  {
+   "id": "crush",
+   "title": "Crush injury",
+   "category": 1,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "lever (pipe, plank)",
+    "car jack",
+    "people to lift together",
+    "jacket for warmth"
+   ],
+   "doNot": [
+    "Do NOT: wait before removing the load, go under unstable debris, or give food or drink."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "call 911. Remove the load as soon as it is safe. Treat bleeding, tourniquet if needed. Keep warm and keep checking breathing."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL 911",
+     "tl": "Tumawag sa 911.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Remove the load as soon as it is safe.",
+     "keyword": "REMOVE",
+     "tl": "Alisin ang nakadagan sa lalong madaling panahon, kapag ligtas na.",
+     "kwTl": "ALISIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Treat bleeding, tourniquet if needed.",
+     "keyword": "BLEEDING",
+     "tl": "Gamutin ang pagdurugo, tourniquet kung kailangan.",
+     "kwTl": "GAMUTIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Keep warm and keep checking breathing.",
+     "keyword": "WARM",
+     "tl": "Panatilihing mainit at laging tingnan ang paghinga.",
+     "kwTl": "BALUTIN",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: CRUSH INJURY",
+   "sources": [
+    "ANZCOR crush injury guideline",
+    "IFRC First Aid Guidelines",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "collapse",
+    "crush",
+    "crushed",
+    "dagan",
+    "debris",
+    "heavy",
+    "ipit",
+    "nadaganan",
+    "naipit",
+    "pinned",
+    "trapped"
+   ],
+   "links": [
+    "bleeding"
+   ],
+   "topics": [
+    "Crush injuries"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "doNotTl": [
+    "Huwag nang maghintay bago alisin ang dagan; huwag pumasok sa ilalim ng gumuguhong debris; walang ipapakain o ipapainom."
+   ],
+   "nearbyTl": [
+    "pang-angat (tubo, tabla)",
+    "jack ng kotse",
+    "mga taong sabay bubuhat",
+    "jacket"
+   ]
+  },
+  {
+   "id": "amputation",
+   "title": "Amputation",
+   "category": 1,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "clean damp cloth",
+    "plastic bag",
+    "ice or cold water from a store",
+    "shirt or belt for pressure"
+   ],
+   "doNot": [
+    "Place the bag on ice or cold water, never direct ice."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "bleeding control (card 1, tourniquet). Wrap the part in damp clean cloth, put in plastic bag. Place the bag on ice or cold water, never direct ice. Send with patient."
+   ],
+   "steps": [
+    {
+     "text": "Bleeding control (card 1, tourniquet).",
+     "keyword": "BLEEDING"
+    },
+    {
+     "text": "Wrap the part in damp clean cloth, put in plastic bag.",
+     "keyword": "WRAP",
+     "tl": "Ibalot sa basang malinis na tela, ilagay sa plastik.",
+     "kwTl": "IBALOT",
+     "kwTlStatus": "derived-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Place the bag on ice or cold water, never direct ice.",
+     "keyword": "PLACE",
+     "tl": "Ipatong ang plastik sa yelo o malamig na tubig, huwag direktang yelo.",
+     "kwTl": "IPATONG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Send with patient.",
+     "keyword": "SEND"
+    }
+   ],
+   "src": "Content v2 More emergencies: AMPUTATION",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "Stop the Bleed (ACS)"
+   ],
+   "keywords": [
+    "amputation",
+    "cut",
+    "finger",
+    "hand",
+    "naputol",
+    "naputulan",
+    "off",
+    "putol",
+    "severed"
+   ],
+   "links": [
+    "bleeding"
+   ],
+   "topics": [
+    "Amputations"
+   ],
+   "categoryName": "Trauma and physical injuries",
+   "nearbyTl": [
+    "malinis na basang tela",
+    "plastik",
+    "yelo o malamig na tubig mula sa tindahan",
+    "damit o sinturon na pandiin"
+   ]
+  },
+  {
+   "id": "drowning",
+   "title": "Drowning",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "pole",
+    "rope",
+    "empty bottle",
+    "cooler",
+    "towel or jacket for warmth"
+   ],
+   "doNot": [
+    "don't jump in unless trained."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "don't jump in unless trained. Reach or throw: pole, rope, empty bottle, cooler. Not breathing? If trained, give 5 rescue breaths, then CPR. Not trained? Push hands-only CPR anyway. Keep warm."
+   ],
+   "steps": [
+    {
+     "text": "Don't jump in unless trained.",
+     "keyword": "DON'T JUMP",
+     "tl": "Huwag tumalon sa tubig kung hindi trained.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Reach or throw: pole, rope, empty bottle, cooler.",
+     "keyword": "REACH",
+     "tl": "Iabot o ihagis: pole, lubid, bakanteng bote, cooler.",
+     "kwTl": "IABOT",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Not breathing? If trained, give 5 rescue breaths, then CPR.",
+     "keyword": "5 BREATHS",
+     "tl": "Hindi humihinga? Kung trained, magbigay ng limang rescue breath, saka CPR.",
+     "kwTl": "5 HININGA",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Not trained? Push hands-only CPR anyway.",
+     "keyword": "CPR",
+     "tl": "Hindi trained? Mag-hands-only CPR pa rin.",
+     "kwTl": "CPR",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Keep warm.",
+     "keyword": "KEEP",
+     "tl": "Panatilihing mainit.",
+     "kwTl": "BALUTIN",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: DROWNING",
+   "sources": [
+    "AHA Drowning Focused Update 2024",
+    "AHA CPR & ECC Guidelines 2025",
+    "ERC Guidelines 2025"
+   ],
+   "keywords": [
+    "drowned",
+    "drowning",
+    "flood",
+    "lunod",
+    "nalumos",
+    "nalunod",
+    "pool",
+    "river",
+    "sea",
+    "water"
+   ],
+   "links": [
+    "cpr"
+   ],
+   "topics": [
+    "Drowning"
+   ],
+   "categoryName": "Environmental emergencies",
+   "nearbyTl": [
+    "pole",
+    "lubid",
+    "bakanteng bote",
+    "cooler",
+    "tuwalya o jacket"
+   ]
+  },
+  {
+   "id": "electrical",
+   "title": "Electrical injury / lightning",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "main breaker or plug",
+    "dry wooden broom handle",
+    "plastic chair",
+    "dry rubber mat",
+    "cardboard"
+   ],
+   "doNot": [
+    "Downed or high-voltage lines: stay 10 m away, don't approach.",
+    "Do NOT: touch them while they are still on the current, use metal or anything wet, or go near downed lines."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "home or office: turn off the power or unplug first. Can't? Push them away with dry wood or plastic. Stand on dry wood, rubber, or cardboard. Downed or high-voltage lines: stay 10 m away, don't approach. Call 911 and the power company. Then check breathing, CPR if needed, cool burns. Lightning victims are safe to touch."
+   ],
+   "steps": [
+    {
+     "text": "Home or office: turn off the power or unplug first.",
+     "keyword": "POWER OFF",
+     "tl": "Sa bahay o opisina: patayin ang kuryente o hugutin ang saksak muna.",
+     "kwTl": "PATAYIN",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Can't? Push them away with dry wood or plastic.",
+     "keyword": "PUSH AWAY",
+     "tl": "Hindi kaya? Itulak siya palayo gamit ang tuyong kahoy o plastik.",
+     "kwTl": "ITULAK",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Stand on dry wood, rubber, or cardboard.",
+     "keyword": "DRY",
+     "tl": "Tumayo sa tuyong kahoy, goma, o karton.",
+     "kwTl": "TUMAYO",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Downed or high-voltage lines: stay 10 m away, don't approach.",
+     "keyword": "10 M AWAY",
+     "tl": "Bagsak o high-voltage na kawad: lumayo nang sampung metro, huwag lumapit.",
+     "kwTl": "10 METRO",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Call 911 and the power company.",
+     "keyword": "CALL 911",
+     "tl": "Tumawag sa 911 at sa kompanya ng kuryente.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Then check breathing, CPR if needed, cool burns.",
+     "keyword": "BREATHING?",
+     "tl": "Saka tingnan ang paghinga, CPR kung kailangan, palamigin ang paso.",
+     "kwTl": "HINGA?",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Lightning victims are safe to touch.",
+     "keyword": "SAFE",
+     "tl": "Ligtas hawakan ang tinamaan ng kidlat.",
+     "kwTl": "LIGTAS",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: ELECTRICAL INJURY / LIGHTNING",
+   "sources": [
+    "ERC Guidelines 2025 First Aid",
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "burn",
+    "electric",
+    "electrical",
+    "electrocuted",
+    "gikuryente",
+    "kidlat",
+    "kilat",
+    "kuryente",
+    "lightning",
+    "nakuryente",
+    "shock",
+    "wire"
+   ],
+   "links": [
+    "cpr",
+    "burns"
+   ],
+   "topics": [
+    "Electrical injuries",
+    "Lightning strikes",
+    "Electrical burns"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag siyang hawakan habang nakakuryente pa; huwag gumamit ng metal o basang bagay; huwag lumapit sa bagsak na kawad."
+   ],
+   "nearbyTl": [
+    "main breaker o saksakan",
+    "tuyong hawakan ng walis",
+    "plastik na upuan",
+    "tuyong goma",
+    "karton"
+   ]
+  },
+  {
+   "id": "snake",
+   "title": "Snake bite",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "stick or rolled magazine plus cloth as a splint",
+    "cloth strips for a bandage",
+    "phone camera"
+   ],
+   "doNot": [
+    "Do NOT cut, suck, use tourniquet, ice or herbal remedies."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "call 911, keep still and calm. Keep the bitten limb still, at about heart level. Remove rings and tight items. Do NOT cut, suck, use tourniquet, ice or herbal remedies. Possible cobra bite and trained? Use a pressure-immobilization bandage. Photo of the snake only from a safe distance. Go to hospital fast for antivenom."
+   ],
+   "steps": [
+    {
+     "text": "Call 911, keep still and calm.",
+     "keyword": "KEEP STILL",
+     "tl": "Tumawag sa 911, manatiling kalmado at hindi gumagalaw.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Keep the bitten limb still, at about heart level.",
+     "keyword": "LIMB STILL",
+     "tl": "Huwag igalaw ang nakagat na braso o binti, kapantay ng puso.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Remove rings and tight items.",
+     "keyword": "REMOVE",
+     "tl": "Tanggalin ang singsing at masisikip na suot.",
+     "kwTl": "TANGGALIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Do NOT cut, suck, use tourniquet, ice or herbal remedies.",
+     "keyword": "DON'T CUT",
+     "tl": "Huwag hiwain, sipsipin, lagyan ng tourniquet, yelo, o herbal.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Possible cobra bite and trained? Use a pressure-immobilization bandage.",
+     "keyword": "USE",
+     "tl": "Posibleng kobra at trained ka? Gumamit ng pressure-immobilization bandage.",
+     "kwTl": "GUMAMIT",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Photo of the snake only from a safe distance.",
+     "keyword": "PHOTO",
+     "tl": "Kunan ng litrato ang ahas mula lang sa ligtas na layo.",
+     "kwTl": "KUNAN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Go to hospital fast for antivenom.",
+     "keyword": "GO",
+     "tl": "Dalhin agad sa ospital para sa antivenom.",
+     "kwTl": "DALHIN",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: SNAKE BITE",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "WHO SEARO Snakebite Management Guidelines 2016",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "ahas",
+    "bite",
+    "bitin",
+    "cobra",
+    "gitukob",
+    "natuklaw",
+    "snake",
+    "snakebite",
+    "tinuklaw",
+    "tuklaw",
+    "viper"
+   ],
+   "links": [
+    "fractures"
+   ],
+   "topics": [
+    "Snake bites"
+   ],
+   "categoryName": "Environmental emergencies",
+   "nearbyTl": [
+    "patpat o nirolyong magasin at tela bilang splint",
+    "piraso ng tela para sa bandage",
+    "camera ng telepono"
+   ]
+  },
+  {
+   "id": "animal_bite",
+   "title": "Animal bite (dog/cat)",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "soap",
+    "running water (faucet or bottled)",
+    "clean cloth"
+   ],
+   "doNot": [
+    "Do NOT: put garlic, herbs or \"tandok/tawak\" remedies on it, close it tightly, or wait to see if the animal gets sick."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "wash with soap and running water 15 min. Cover. Go to Animal Bite Center for rabies shot, even for scratches."
+   ],
+   "steps": [
+    {
+     "text": "Wash with soap and running water 15 min.",
+     "keyword": "WASH"
+    },
+    {
+     "text": "Cover.",
+     "keyword": "COVER"
+    },
+    {
+     "text": "Go to Animal Bite Center for rabies shot, even for scratches.",
+     "keyword": "GO"
+    }
+   ],
+   "src": "Content v2 More emergencies: ANIMAL BITE (dog/cat)",
+   "sources": [
+    "WHO Rabies guidance",
+    "AHA/Red Cross First Aid Guidelines 2024"
+   ],
+   "keywords": [
+    "animal",
+    "aso",
+    "bite",
+    "cat",
+    "dog",
+    "gikagat",
+    "iring",
+    "iro",
+    "kagat",
+    "kinagat",
+    "nakagat",
+    "pusa",
+    "rabies",
+    "scratch"
+   ],
+   "links": [],
+   "topics": [
+    "Animal bites"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag lagyan ng bawang, halamang-gamot, o tandok/tawak; huwag takpan nang mahigpit; huwag maghintay kung magkakasakit ang hayop."
+   ],
+   "nearbyTl": [
+    "sabon",
+    "umaagos na tubig (gripo o bote)",
+    "malinis na tela"
+   ]
+  },
+  {
+   "id": "insect",
+   "title": "Insect stings",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "card edge (ID, ATM)",
+    "fingernails",
+    "cold drink can or ice in cloth"
+   ],
+   "doNot": [
+    "Do NOT: dig at the skin with a pin or knife, or scratch the sting."
+   ],
+   "watchFor": [
+    "Watch for allergy signs, see anaphylaxis card."
+   ],
+   "call911When": null,
+   "detail": [
+    "get the stinger out fast: scrape or pinch, whatever is quickest. Cold compress. Watch for allergy signs, see anaphylaxis card."
+   ],
+   "steps": [
+    {
+     "text": "Get the stinger out fast: scrape or pinch, whatever is quickest.",
+     "keyword": "GET IT OUT",
+     "tl": "Tanggalin agad ang tusok: kayurin o ipitin, kung alin ang pinakamabilis.",
+     "kwTl": "TANGGALIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Cold compress.",
+     "keyword": "COLD",
+     "tl": "Malamig na kompres.",
+     "kwTl": "MALAMIG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Watch for allergy signs, see anaphylaxis card.",
+     "keyword": "WATCH",
+     "tl": "Bantayan ang senyales ng allergy, tingnan ang anaphylaxis card.",
+     "kwTl": "BANTAYAN",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: INSECT STINGS",
+   "sources": [
+    "ERC Guidelines 2025 First Aid",
+    "AHA/Red Cross First Aid Guidelines 2024"
+   ],
+   "keywords": [
+    "ant",
+    "bee",
+    "bubuyog",
+    "insect",
+    "insekto",
+    "kinagat",
+    "ng",
+    "pukyutan",
+    "putakti",
+    "scorpion",
+    "sting",
+    "stung",
+    "tinusok",
+    "wasp"
+   ],
+   "links": [
+    "anaphylaxis"
+   ],
+   "topics": [
+    "Insect stings"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag hukayin ang balat gamit ang aspili o kutsilyo; huwag kamutin."
+   ],
+   "nearbyTl": [
+    "gilid ng card (ID, ATM)",
+    "kuko",
+    "malamig na lata o yelo sa tela"
+   ]
+  },
+  {
+   "id": "dehydration",
+   "title": "Dehydration / severe vomiting or diarrhea",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "bottled water",
+    "sugar",
+    "salt",
+    "1-liter bottle to measure",
+    "teaspoon"
+   ],
+   "doNot": [
+    "Do NOT: give big gulps, energy drinks or alcohol; stop fluids after one vomit (wait 10 min, then sip again)."
+   ],
+   "watchFor": [
+    "Danger signs (no urine, very drowsy, blood in stool, child/elderly) = clinic/911."
+   ],
+   "call911When": null,
+   "detail": [
+    "small frequent sips of ORS. Homemade: 1 liter clean water, 6 tsp sugar, ½ tsp salt. Use level teaspoons, not heaped. Danger signs (no urine, very drowsy, blood in stool, child/elderly) = clinic/911."
+   ],
+   "steps": [
+    {
+     "text": "Small frequent sips of ORS.",
+     "keyword": "ORS"
+    },
+    {
+     "text": "Homemade: 1 liter clean water, 6 tsp sugar, ½ tsp salt.",
+     "keyword": "HOMEMADE",
+     "tl": "Isang litrong tubig, anim na kutsaritang asukal, kalahating kutsaritang asin.",
+     "kwTl": "ORS",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Use level teaspoons, not heaped.",
+     "keyword": "LEVEL",
+     "tl": "Kutsaritang pantay, hindi bunton.",
+     "kwTl": "PANTAY",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Danger signs (no urine, very drowsy, blood in stool, child/elderly) = clinic/911.",
+     "keyword": "DANGER"
+    }
+   ],
+   "src": "Content v2 More emergencies: DEHYDRATION / SEVERE VOMITING OR DIARRHEA",
+   "sources": [
+    "WHO ORS guidance",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "bowel",
+    "dehydration",
+    "diarrhea",
+    "kalibang",
+    "lbm",
+    "loose",
+    "nagsusuka",
+    "nagtatae",
+    "ors",
+    "pagtatae",
+    "suka",
+    "thirsty",
+    "uhaw",
+    "vomiting"
+   ],
+   "links": [],
+   "topics": [
+    "Dehydration",
+    "Severe vomiting",
+    "Severe diarrhea"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag painumin nang malalaking lagok, energy drink, o alak; huwag itigil ang inumin dahil sa isang suka (maghintay ng sampung minuto, saka painumin ulit)."
+   ],
+   "nearbyTl": [
+    "tubig",
+    "asukal",
+    "asin",
+    "isang litrong bote panukat",
+    "kutsarita"
+   ]
+  },
+  {
+   "id": "hypothermia",
+   "title": "Hypothermia",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "dry clothes",
+    "blanket",
+    "trash bag or plastic sheet",
+    "foil",
+    "jacket",
+    "warm sweet drink"
+   ],
+   "doNot": [
+    "Do NOT: rub their arms and legs, use very hot water or heaters on the skin, or give alcohol."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "remove wet clothes, wrap in dry blanket, plastic, or foil. Cover the head. Warm sweet drinks if awake. Handle gently."
+   ],
+   "steps": [
+    {
+     "text": "Remove wet clothes, wrap in dry blanket, plastic, or foil.",
+     "keyword": "WRAP",
+     "tl": "Tanggalin ang basang damit, ibalot sa tuyong kumot, plastik, o foil.",
+     "kwTl": "IBALOT",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Cover the head.",
+     "keyword": "COVER",
+     "tl": "Takpan ang ulo.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Warm sweet drinks if awake.",
+     "keyword": "WARM DRINK",
+     "tl": "Mainit at matamis na inumin kung gising.",
+     "kwTl": "INUMIN",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Handle gently.",
+     "keyword": "HANDLE",
+     "tl": "Dahan-dahan sa paghawak.",
+     "kwTl": "PAGHAWAK",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: HYPOTHERMIA (after flood/rain)",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "cold",
+    "flood",
+    "freezing",
+    "ginaw",
+    "giniginaw",
+    "hypothermia",
+    "nilalamig",
+    "rain",
+    "shivering",
+    "tugnaw",
+    "wet"
+   ],
+   "links": [],
+   "topics": [
+    "Hypothermia"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag kuskusin ang braso at binti; huwag gumamit ng napakainit na tubig o heater sa balat; huwag painumin ng alak."
+   ],
+   "nearbyTl": [
+    "tuyong damit",
+    "kumot",
+    "trash bag o plastik",
+    "foil",
+    "jacket",
+    "mainit na matamis na inumin"
+   ]
+  },
+  {
+   "id": "eye",
+   "title": "Eye injury / foreign object",
+   "category": 4,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "bottled water",
+    "paper cup",
+    "clean cloth"
+   ],
+   "doNot": [
+    "Don't rub.",
+    "Object stuck in eye: don't remove it."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "flush with clean water. Don't rub. Object stuck in eye: don't remove it. Cover both eyes loosely; paper cup over the injured eye. Go to hospital."
+   ],
+   "steps": [
+    {
+     "text": "Flush with clean water.",
+     "keyword": "FLUSH"
+    },
+    {
+     "text": "Don't rub.",
+     "keyword": "DON'T RUB"
+    },
+    {
+     "text": "Object stuck in eye: don't remove it.",
+     "keyword": "LEAVE IT",
+     "tl": "May nakatusok sa mata: huwag itong tanggalin.",
+     "kwTl": "HAYAAN",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Cover both eyes loosely; paper cup over the injured eye.",
+     "keyword": "COVER",
+     "tl": "Takpan nang maluwag ang dalawang mata; paper cup sa napinsalang mata.",
+     "kwTl": "TAKPAN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Go to hospital.",
+     "keyword": "GO",
+     "tl": "Pumunta sa ospital.",
+     "kwTl": "PUMUNTA",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: EYE INJURY / FOREIGN OBJECT",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "chemical",
+    "dust",
+    "eye",
+    "in",
+    "injury",
+    "mata",
+    "napuwing",
+    "puwing",
+    "something"
+   ],
+   "links": [
+    "burns"
+   ],
+   "topics": [
+    "Eye injuries",
+    "Foreign objects in the eye"
+   ],
+   "categoryName": "Burns and related injuries",
+   "nearbyTl": [
+    "tubig",
+    "paper cup",
+    "malinis na tela"
+   ]
+  },
+  {
+   "id": "nosebleed",
+   "title": "Nosebleed",
+   "category": 4,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "tissue or cloth for drips",
+    "phone timer"
+   ],
+   "doNot": [
+    "Not backward.",
+    "Do NOT: tilt the head back, lie them down, or stuff tissue deep into the nose."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "sit up and lean FORWARD. Pinch the soft part of the nose for 10 minutes. Not backward. Still bleeding? Pinch 10 more minutes. Over 20 min = clinic."
+   ],
+   "steps": [
+    {
+     "text": "Sit up and lean FORWARD.",
+     "keyword": "FORWARD",
+     "tl": "Umupo at yumuko PASULONG.",
+     "kwTl": "PASULONG",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Pinch the soft part of the nose for 10 minutes.",
+     "keyword": "PINCH",
+     "tl": "Ipitin ang malambot na bahagi ng ilong nang sampung minuto.",
+     "kwTl": "IPITIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Not backward.",
+     "keyword": "NOT BACK",
+     "tl": "Huwag tumingala.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Still bleeding? Pinch 10 more minutes.",
+     "keyword": "10 MORE",
+     "tl": "Dumudugo pa? Ipitin pa nang sampung minuto.",
+     "kwTl": "IPITIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Over 20 min = clinic.",
+     "keyword": "CLINIC",
+     "tl": "Lagpas dalawampung minuto = klinika.",
+     "kwTl": "KLINIKA",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: NOSEBLEED",
+   "sources": [
+    "ERC Guidelines 2025 First Aid",
+    "AHA/Red Cross First Aid Guidelines 2024"
+   ],
+   "keywords": [
+    "balinguyngoy",
+    "bleeding",
+    "dumudugo",
+    "ilong",
+    "nose",
+    "nosebleed"
+   ],
+   "links": [],
+   "topics": [
+    "Nosebleeds"
+   ],
+   "categoryName": "Burns and related injuries",
+   "doNotTl": [
+    "Huwag itingala ang ulo, huwag ihiga, huwag isiksik ang tissue sa loob ng ilong."
+   ],
+   "nearbyTl": [
+    "tissue o tela",
+    "timer ng telepono"
+   ]
+  },
+  {
+   "id": "dental",
+   "title": "Dental injury (knocked-out tooth)",
+   "category": 4,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "milk from a store or canteen",
+    "clean cup",
+    "clean water",
+    "cloth to bite on"
+   ],
+   "doNot": [
+    "Do NOT: touch the root, scrub it, let it dry, wrap it in tissue, or put back a child's baby tooth."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "hold by the crown, rinse briefly in milk or clean water. Put back in socket if you can, or keep in milk. No milk? Alert adult can keep it inside the cheek. Dentist within 1 hour."
+   ],
+   "steps": [
+    {
+     "text": "Hold by the crown, rinse briefly in milk or clean water.",
+     "keyword": "TOOTH",
+     "tl": "Hawakan sa korona, banlawan saglit sa gatas o malinis na tubig.",
+     "kwTl": "HAWAKAN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Put back in socket if you can, or keep in milk.",
+     "keyword": "SOCKET",
+     "tl": "Ibalik sa butas kung kaya, o ilagay sa gatas.",
+     "kwTl": "IBALIK",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "No milk? Alert adult can keep it inside the cheek.",
+     "keyword": "CHEEK",
+     "tl": "Walang gatas? Gising na adult: itago sa loob ng pisngi.",
+     "kwTl": "PISNGI",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Dentist within 1 hour.",
+     "keyword": "DENTIST",
+     "tl": "Dentista sa loob ng isang oras.",
+     "kwTl": "DENTISTA",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: DENTAL INJURY (knocked-out tooth)",
+   "sources": [
+    "IADT Dental Trauma Guidelines 2020",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "dental",
+    "knocked",
+    "nabungi",
+    "natanggal",
+    "ngipin",
+    "out",
+    "teeth",
+    "tooth"
+   ],
+   "links": [],
+   "topics": [
+    "Dental injuries"
+   ],
+   "categoryName": "Burns and related injuries",
+   "doNotTl": [
+    "Huwag hawakan ang ugat, huwag kuskusin, huwag hayaang matuyo, huwag ibalot sa tissue, huwag ibalik ang ngiping-gatas ng bata."
+   ],
+   "nearbyTl": [
+    "gatas mula sa tindahan o canteen",
+    "malinis na baso",
+    "malinis na tubig",
+    "telang kakagatin"
+   ]
+  },
+  {
+   "id": "panic",
+   "title": "Panic attack",
+   "category": 5,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "quiet corner",
+    "chair",
+    "water"
+   ],
+   "doNot": [
+    "Do NOT: make them breathe into a paper bag, tell them to \"just calm down\", or leave them alone."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "rule out heart/breathing emergency. Move to a quiet place. Slow breathing: in 4, hold 4, out 6 counts. Name 5 things you see. Stay with them."
+   ],
+   "steps": [
+    {
+     "text": "Rule out heart/breathing emergency.",
+     "keyword": "RULE OUT",
+     "tl": "Siguraduhing hindi ito problema sa puso o paghinga.",
+     "kwTl": "PUSO?",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Move to a quiet place.",
+     "keyword": "QUIET",
+     "tl": "Lumipat sa tahimik na lugar.",
+     "kwTl": "LUMIPAT",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Slow breathing: in 4, hold 4, out 6 counts.",
+     "keyword": "BREATHE",
+     "tl": "Dahan-dahang huminga: hinga 4, pigil 4, buga 6 na bilang.",
+     "kwTl": "HUMINGA",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Name 5 things you see.",
+     "keyword": "NAME",
+     "tl": "Magbanggit ng limang bagay na nakikita mo.",
+     "kwTl": "5 BAGAY",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Stay with them.",
+     "keyword": "STAY",
+     "tl": "Samahan siya.",
+     "kwTl": "SAMAHAN",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: PANIC ATTACK",
+   "sources": [
+    "ERC Guidelines 2025 First Aid",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "anxiety",
+    "attack",
+    "calm",
+    "can't",
+    "down",
+    "hyperventilating",
+    "kaba",
+    "nag-panic",
+    "nerbyos",
+    "panic",
+    "takot"
+   ],
+   "links": [],
+   "topics": [
+    "Panic attacks"
+   ],
+   "categoryName": "Special emergencies",
+   "doNotTl": [
+    "Huwag ipahinga sa paper bag; huwag sabihing \"kalma ka lang\"; huwag siyang iwan."
+   ],
+   "nearbyTl": [
+    "tahimik na sulok",
+    "upuan",
+    "tubig"
+   ]
+  },
+  {
+   "id": "altered",
+   "title": "Altered mental status",
+   "category": 5,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "jacket for warmth",
+    "bag under the head when on their side",
+    "their medical ID or medicine list"
+   ],
+   "doNot": [
+    "Recovery position if drowsy, nothing by mouth."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "confused or very sleepy: check sugar (diabetic?), heat, head injury, poisoning. Call 911. Recovery position if drowsy, nothing by mouth."
+   ],
+   "steps": [
+    {
+     "text": "Confused or very sleepy: check sugar (diabetic?), heat, head injury, poisoning.",
+     "keyword": "CHECK"
+    },
+    {
+     "text": "Call 911.",
+     "keyword": "CALL"
+    },
+    {
+     "text": "Recovery position if drowsy, nothing by mouth.",
+     "keyword": "RECOVERY"
+    }
+   ],
+   "src": "Content v2 More emergencies: ALTERED MENTAL STATUS",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024"
+   ],
+   "keywords": [
+    "altered",
+    "antok",
+    "confused",
+    "disoriented",
+    "drowsy",
+    "lito",
+    "sa",
+    "sarili",
+    "sleepy",
+    "unresponsive",
+    "very",
+    "wala"
+   ],
+   "links": [
+    "recovery",
+    "low_sugar",
+    "heat_stroke",
+    "head",
+    "poisoning"
+   ],
+   "topics": [
+    "Altered mental status"
+   ],
+   "categoryName": "Special emergencies",
+   "nearbyTl": [
+    "jacket",
+    "bag sa ilalim ng ulo kung nakatagilid",
+    "medical ID o listahan ng gamot niya"
+   ]
+  },
+  {
+   "id": "pregnancy",
+   "title": "Pregnancy emergency",
+   "category": 5,
+   "priority": 0,
+   "signs": [
+    "heavy bleeding, severe belly pain, seizure, fluid leak early"
+   ],
+   "nearby": [
+    "folded jacket or pillow behind her back",
+    "clean towels or sanitary pads",
+    "blanket"
+   ],
+   "doNot": [
+    "Do NOT: lay her flat on her back, give food or drink, or let her walk if bleeding."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "heavy bleeding, severe belly pain, seizure, fluid leak early: call 911, lay on her LEFT side."
+   ],
+   "steps": [
+    {
+     "text": "Call 911, lay on her LEFT side.",
+     "keyword": "CALL"
+    }
+   ],
+   "src": "Content v2 More emergencies: PREGNANCY EMERGENCY",
+   "sources": [
+    "IFRC First Aid Guidelines",
+    "AHA/Red Cross First Aid Guidelines 2024"
+   ],
+   "keywords": [
+    "bleeding",
+    "buntis",
+    "nagbubuntis",
+    "pregnancy",
+    "pregnant"
+   ],
+   "links": [],
+   "topics": [
+    "Pregnancy-related emergencies"
+   ],
+   "categoryName": "Special emergencies",
+   "doNotTl": [
+    "Huwag siyang ihiga nang patihaya; walang ipapakain o ipapainom; huwag palakarin kung dumudugo."
+   ],
+   "nearbyTl": [
+    "tinuping jacket o unan sa likod",
+    "malinis na tuwalya o napkin",
+    "kumot"
+   ]
+  },
+  {
+   "id": "childbirth",
+   "title": "Emergency childbirth",
+   "category": 5,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "clean towels or shirts",
+    "blanket",
+    "plastic sheet",
+    "plastic bags over hands",
+    "warm room"
+   ],
+   "doNot": [
+    "Support the baby's head, don't pull.",
+    "Don't pull the placenta."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "call 911. Clean hands, clean towel under. Support the baby's head, don't pull. Dry baby, skin-to-skin on mother, cover both. Leave the cord. Don't pull the placenta."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL"
+    },
+    {
+     "text": "Clean hands, clean towel under.",
+     "keyword": "CLEAN"
+    },
+    {
+     "text": "Support the baby's head, don't pull.",
+     "keyword": "SUPPORT"
+    },
+    {
+     "text": "Dry baby, skin-to-skin on mother, cover both.",
+     "keyword": "DRY"
+    },
+    {
+     "text": "Leave the cord.",
+     "keyword": "LEAVE"
+    },
+    {
+     "text": "Don't pull the placenta.",
+     "keyword": "DON'T PULL"
+    }
+   ],
+   "src": "Content v2 More emergencies: CHILDBIRTH (no time to reach hospital)",
+   "sources": [
+    "IFRC First Aid Guidelines",
+    "WHO essential newborn care"
+   ],
+   "keywords": [
+    "baby",
+    "birth",
+    "coming",
+    "delivering",
+    "labor",
+    "manganganak",
+    "nanganganak",
+    "panganganak"
+   ],
+   "links": [],
+   "topics": [
+    "Childbirth emergencies"
+   ],
+   "categoryName": "Special emergencies",
+   "nearbyTl": [
+    "malinis na tuwalya o damit",
+    "kumot",
+    "plastik na sapin",
+    "plastik sa kamay",
+    "mainit na kuwarto"
+   ]
+  },
+  {
+   "id": "febrile",
+   "title": "Febrile seizure (child with fever)",
+   "category": 5,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "soft blanket or jacket under the head",
+    "phone timer"
+   ],
+   "doNot": [
+    "Do NOT: sponge with cold or lukewarm water, put the child in a bath, or put anything in the mouth."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "same as seizure card. After: remove extra clothes, keep the room cool. Clinic check."
+   ],
+   "steps": [
+    {
+     "text": "Same as seizure card.",
+     "keyword": "SEIZURE",
+     "tl": "Gaya ng seizure card.",
+     "kwTl": "SEIZURE",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "After: remove extra clothes, keep the room cool.",
+     "keyword": "COOL ROOM",
+     "tl": "Pagkatapos: tanggalin ang sobrang damit, panatilihing malamig ang kuwarto.",
+     "kwTl": "MALAMIG",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Clinic check.",
+     "keyword": "CLINIC",
+     "tl": "Ipatingin sa klinika.",
+     "kwTl": "IPATINGIN",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: FEBRILE SEIZURE (child with fever)",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "bata",
+    "child",
+    "febrile",
+    "fever",
+    "kombulsyon",
+    "lagnat",
+    "nilalagnat",
+    "seizure"
+   ],
+   "links": [
+    "seizures",
+    "recovery"
+   ],
+   "topics": [
+    "Febrile seizures"
+   ],
+   "categoryName": "Special emergencies",
+   "doNotTl": [
+    "Huwag punasan ng malamig o maligamgam na tubig, huwag ilublob sa batya, walang ilalagay sa bibig."
+   ],
+   "nearbyTl": [
+    "malambot na kumot o jacket sa ilalim ng ulo",
+    "timer ng telepono"
+   ]
+  },
+  {
+   "id": "high_sugar",
+   "title": "High blood sugar",
+   "category": 2,
+   "priority": 0,
+   "signs": [
+    "diabetic, very thirsty, peeing a lot"
+   ],
+   "nearby": [
+    "bottled water",
+    "sugar or juice (if unsure high or low)",
+    "jacket for warmth"
+   ],
+   "doNot": [
+    "Not awake = nothing by mouth, recovery position.",
+    "Do NOT: give sugary drinks when you know it's high sugar, or give anything by mouth if not awake."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "give sips of water if awake and can swallow. Vomiting, fast deep breathing, fruity breath, confused, or drowsy? Call 911. Unsure if sugar is high or low? Give sugar anyway. Not awake = nothing by mouth, recovery position."
+   ],
+   "steps": [
+    {
+     "text": "Give sips of water if awake and can swallow.",
+     "keyword": "SIPS",
+     "tl": "Painumin ng kaunting tubig kung gising at nakakalunok.",
+     "kwTl": "PAINUMIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Vomiting, fast deep breathing, fruity breath, confused, or drowsy? Call 911.",
+     "keyword": "CALL 911",
+     "tl": "Nagsusuka, amoy-prutas ang hininga, o lito? Tumawag sa 911.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Unsure if sugar is high or low? Give sugar anyway.",
+     "keyword": "UNSURE?",
+     "tl": "Hindi sigurado kung mataas o mababa? Bigyan pa rin ng asukal.",
+     "kwTl": "ASUKAL",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Not awake = nothing by mouth, recovery position.",
+     "keyword": "NOTHING",
+     "tl": "Hindi gising = walang ipapainom, recovery position.",
+     "kwTl": "WALA",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: HIGH BLOOD SUGAR (diabetic, very thirsty, peeing a lot)",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [],
+   "links": [],
+   "topics": [],
+   "categoryName": "Medical emergencies",
+   "signsTl": [
+    "diabetic, sobrang uhaw, madalas umihi."
+   ],
+   "doNotTl": [
+    "Huwag bigyan ng matamis kapag alam mong mataas ang asukal; walang ipapainom kung hindi gising."
+   ],
+   "nearbyTl": [
+    "tubig",
+    "asukal o juice (kung hindi sigurado)",
+    "jacket"
+   ]
+  },
+  {
+   "id": "high_bp",
+   "title": "High blood pressure emergency",
+   "category": 2,
+   "priority": 0,
+   "signs": [
+    "severe headache, chest pain, short breath, confusion, blurry vision, one-side weakness."
+   ],
+   "nearby": [
+    "chair",
+    "quiet shaded spot",
+    "phone clock to note the start time"
+   ],
+   "doNot": [
+    "Do NOT: give anyone else's medicine or extra doses, let them drive, or leave them alone."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "severe headache, chest pain, short breath, confusion, blurry vision, one-side weakness. Call 911. Sit them up, calm and quiet. Check for stroke: use the stroke card. Chest pain? Use the heart attack card. Note the time it started."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL 911",
+     "tl": "Tumawag sa 911.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Sit them up, calm and quiet.",
+     "keyword": "SIT UP",
+     "tl": "Paupuin, pakalmahin, sa tahimik na lugar.",
+     "kwTl": "PAUPUIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Check for stroke: use the stroke card.",
+     "keyword": "STROKE?",
+     "tl": "Tingnan kung may stroke: gamitin ang stroke card.",
+     "kwTl": "STROKE?",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Chest pain? Use the heart attack card.",
+     "keyword": "CHEST PAIN?",
+     "tl": "Masakit ang dibdib? Gamitin ang heart attack card.",
+     "kwTl": "DIBDIB?",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Note the time it started.",
+     "keyword": "TIME",
+     "tl": "Tandaan ang oras ng simula.",
+     "kwTl": "ORAS",
+     "kwTlStatus": "andy-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: HIGH BLOOD PRESSURE EMERGENCY",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [],
+   "links": [],
+   "topics": [
+    "High blood pressure emergencies"
+   ],
+   "categoryName": "Medical emergencies",
+   "signsTl": [
+    "matinding sakit ng ulo, sakit sa dibdib, hirap huminga, pagkalito, malabong paningin, panghihina ng isang bahagi ng katawan."
+   ],
+   "doNotTl": [
+    "Huwag ibigay ang gamot ng iba o dagdag na dose; huwag siyang pagmanehuhin; huwag iwan."
+   ],
+   "nearbyTl": [
+    "upuan",
+    "tahimik at malilim na lugar",
+    "orasan ng telepono"
+   ]
+  },
+  {
+   "id": "sunburn",
+   "title": "Sunburn",
+   "category": 3,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "shade",
+    "bottled water",
+    "damp towel",
+    "loose clothing",
+    "umbrella"
+   ],
+   "doNot": [
+    "Do NOT: put ice, toothpaste, butter, or oil on it, or pop blisters."
+   ],
+   "watchFor": [
+    "Watch for heat exhaustion signs."
+   ],
+   "call911When": null,
+   "detail": [
+    "get out of the sun into shade. Cool the skin with cool water or a damp cloth, 10–20 min. Give water to drink. Large blisters, fever, confusion, or a baby = clinic or 911. Watch for heat exhaustion signs."
+   ],
+   "steps": [
+    {
+     "text": "Get out of the sun into shade.",
+     "keyword": "SHADE",
+     "tl": "Umalis sa araw, pumunta sa lilim.",
+     "kwTl": "UMALIS",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Cool the skin with cool water or a damp cloth, 10–20 min.",
+     "keyword": "COOL",
+     "tl": "Palamigin ang balat sa malamig na tubig, sampu hanggang dalawampung minuto.",
+     "kwTl": "PALAMIGIN",
+     "kwTlStatus": "derived-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Give water to drink.",
+     "keyword": "WATER",
+     "tl": "Painumin ng tubig.",
+     "kwTl": "PAINUMIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Large blisters, fever, confusion, or a baby = clinic or 911.",
+     "keyword": "CLINIC",
+     "tl": "Malalaking paltos, lagnat, pagkalito, o sanggol = klinika o 911.",
+     "kwTl": "KLINIKA",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Watch for heat exhaustion signs.",
+     "keyword": "WATCH",
+     "tl": "Bantayan ang senyales ng heat exhaustion.",
+     "kwTl": "BANTAYAN",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: SUNBURN",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [],
+   "links": [],
+   "topics": [
+    "Sunburn"
+   ],
+   "categoryName": "Environmental emergencies",
+   "doNotTl": [
+    "Huwag lagyan ng yelo, toothpaste, mantikilya, o langis; huwag putukin ang paltos."
+   ],
+   "nearbyTl": [
+    "lilim",
+    "tubig",
+    "basang tuwalya",
+    "maluwag na damit",
+    "payong"
+   ]
+  },
+  {
+   "id": "workplace",
+   "title": "Workplace accident",
+   "category": 6,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "emergency stop button",
+    "main breaker",
+    "site first aid kit",
+    "clean cloth",
+    "bottled water"
+   ],
+   "doNot": [
+    "Do not enter smoke, fumes, tanks, pits, or tight spaces.",
+    "Do NOT: reach into a running machine, enter a confined space or fumes to rescue, or move the injured unless in danger."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "stop the machine or power, only if safe. Do not enter smoke, fumes, tanks, pits, or tight spaces. Call 911 and alert the site safety officer. Then use the matching card: bleeding, crush, electrical, burns, eye, fractures. Report it afterwards."
+   ],
+   "steps": [
+    {
+     "text": "Stop the machine or power, only if safe.",
+     "keyword": "STOP",
+     "tl": "Patayin ang makina o kuryente, kung ligtas lang.",
+     "kwTl": "PATAYIN",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Do not enter smoke, fumes, tanks, pits, or tight spaces.",
+     "keyword": "DON'T ENTER",
+     "tl": "Huwag pumasok sa usok, singaw, tangke, hukay, o masikip na lugar.",
+     "kwTl": "HUWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Call 911 and alert the site safety officer.",
+     "keyword": "CALL 911",
+     "tl": "Tumawag sa 911 at ipaalam sa safety officer.",
+     "kwTl": "TUMAWAG",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Then use the matching card: bleeding, crush, electrical, burns, eye, fractures.",
+     "keyword": "USE CARD",
+     "tl": "Saka gamitin ang tamang card: pagdurugo, naipit, kuryente, paso, mata, bali.",
+     "kwTl": "CARD",
+     "kwTlStatus": "andy-new"
+    },
+    {
+     "text": "Report it afterwards.",
+     "keyword": "REPORT",
+     "tl": "I-report pagkatapos.",
+     "kwTl": "I-REPORT",
+     "kwTlStatus": "derived-new"
+    }
+   ],
+   "src": "Content v2 More emergencies: WORKPLACE ACCIDENT",
+   "sources": [
+    "IFRC First Aid Guidelines",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [],
+   "links": [],
+   "topics": [
+    "Workplace accidents"
+   ],
+   "categoryName": "Public and mass-casualty emergencies",
+   "doNotTl": [
+    "Huwag ipasok ang kamay sa umaandar na makina; huwag pumasok sa masikip na lugar o singaw para sumagip; huwag galawin ang sugatan maliban kung may panganib."
+   ],
+   "nearbyTl": [
+    "emergency stop button",
+    "main breaker",
+    "first aid kit sa site",
+    "malinis na tela",
+    "tubig"
+   ]
+  },
+  {
+   "id": "crowd",
+   "title": "Crowd crush / stampede",
+   "category": 6,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "phone flashlight",
+    "high ground (bench, ledge) to see exits"
+   ],
+   "doNot": [
+    "Do NOT: push against the crowd, stop to pick up dropped items, or stand against walls, barriers or gates."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "move diagonally out of the flow; keep arms up boxing-style at your chest for breathing room; stay on your feet; if down, curl on your side protecting head. After: treat not-breathing first, then severe bleeding."
+   ],
+   "steps": [
+    {
+     "text": "Move diagonally out of the flow.",
+     "keyword": "MOVE"
+    },
+    {
+     "text": "Keep arms up boxing-style at your chest for breathing room.",
+     "keyword": "KEEP",
+     "tl": "Itaas ang braso na parang boksingero sa dibdib para may espasyong makahinga.",
+     "kwTl": "ITAAS",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Stay on your feet.",
+     "keyword": "STAY"
+    },
+    {
+     "text": "If down, curl on your side protecting head.",
+     "keyword": "CURL"
+    },
+    {
+     "text": "After: treat not-breathing first, then severe bleeding.",
+     "keyword": "TREAT"
+    }
+   ],
+   "src": "Content v2 More emergencies: CROWD CRUSH / STAMPEDE",
+   "sources": [
+    "IFRC First Aid Guidelines",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "crowd",
+    "crush",
+    "dinaganan",
+    "siksikan",
+    "stampede",
+    "trampled",
+    "tulakan"
+   ],
+   "links": [
+    "cpr",
+    "bleeding"
+   ],
+   "topics": [
+    "Crowd crush / stampede"
+   ],
+   "categoryName": "Public and mass-casualty emergencies",
+   "doNotTl": [
+    "Huwag sumalungat sa daloy ng tao; huwag pulutin ang nalaglag; huwag sumandal sa pader, harang, o gate."
+   ],
+   "nearbyTl": [
+    "flashlight ng telepono",
+    "mataas na lugar (bangko, pasamano) para makita ang labasan"
+   ]
+  },
+  {
+   "id": "explosion",
+   "title": "Explosion",
+   "category": 6,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "shirts",
+    "belts and cloth for packing or tourniquet",
+    "jackets for warmth"
+   ],
+   "doNot": [
+    "Do NOT: go back in, touch suspicious items, use your radio or phone next to a suspicious item, or move toward the blast area to look."
+   ],
+   "watchFor": [
+    "get out and away, watch for a second device."
+   ],
+   "call911When": null,
+   "detail": [
+    "get out and away, watch for a second device. Stay away from glass. Treat bleeding (packing/tourniquet). Ringing ears and dazed people still need checking for internal injury."
+   ],
+   "steps": [
+    {
+     "text": "Get out and away, watch for a second device.",
+     "keyword": "GET",
+     "tl": "Lumabas at lumayo, mag-ingat sa pangalawang bomba.",
+     "kwTl": "LUMABAS",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Stay away from glass.",
+     "keyword": "STAY",
+     "tl": "Lumayo sa salamin.",
+     "kwTl": "LUMAYO",
+     "kwTlStatus": "derived-new"
+    },
+    {
+     "text": "Treat bleeding (packing/tourniquet).",
+     "keyword": "TREAT"
+    },
+    {
+     "text": "Ringing ears and dazed people still need checking for internal injury.",
+     "keyword": "RINGING"
+    }
+   ],
+   "src": "Content v2 More emergencies: EXPLOSION",
+   "sources": [
+    "Stop the Bleed (ACS)",
+    "ERC Guidelines 2025 First Aid",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "blast",
+    "bomb",
+    "bomba",
+    "explosion",
+    "grenade",
+    "pagsabog",
+    "sumabog"
+   ],
+   "links": [
+    "bleeding",
+    "triage"
+   ],
+   "topics": [
+    "Explosion injuries"
+   ],
+   "categoryName": "Public and mass-casualty emergencies",
+   "doNotTl": [
+    "Huwag bumalik sa loob; huwag hawakan ang kahina-hinalang bagay; huwag gumamit ng radyo o telepono malapit dito; huwag lumapit para tumingin."
+   ],
+   "nearbyTl": [
+    "damit",
+    "sinturon at tela para sa packing o tourniquet",
+    "jacket"
+   ]
+  },
+  {
+   "id": "fire",
+   "title": "Fire injuries",
+   "category": 6,
+   "priority": 0,
+   "signs": [],
+   "nearby": [
+    "wet cloth or shirt over the nose",
+    "bottled water",
+    "cling wrap for burns"
+   ],
+   "doNot": [
+    "Do NOT: use elevators, open a hot door, or go back in for belongings."
+   ],
+   "watchFor": [],
+   "call911When": null,
+   "detail": [
+    "get low under smoke, cover nose with wet cloth. Burns card. Smoke inhalation (cough, soot at mouth, hoarse) = 911."
+   ],
+   "steps": [
+    {
+     "text": "Get low under smoke, cover nose with wet cloth.",
+     "keyword": "GET"
+    },
+    {
+     "text": "Smoke inhalation (cough, soot at mouth, hoarse) = 911.",
+     "keyword": "GET OUT",
+     "kwTl": "LUMABAS",
+     "kwTlStatus": "rex-v2.1"
+    }
+   ],
+   "src": "Content v2 More emergencies: FIRE INJURIES",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "IFRC First Aid Guidelines"
+   ],
+   "keywords": [
+    "fire",
+    "inhalation",
+    "smoke",
+    "sunog",
+    "usok"
+   ],
+   "links": [
+    "burns"
+   ],
+   "topics": [
+    "Fire-related injuries"
+   ],
+   "categoryName": "Public and mass-casualty emergencies",
+   "doNotTl": [
+    "Huwag gumamit ng elevator, huwag buksan ang mainit na pinto, huwag bumalik para sa gamit."
+   ],
+   "nearbyTl": [
+    "basang tela o damit sa ilong",
+    "tubig",
+    "cling wrap para sa paso"
+   ]
+  },
+  {
+   "id": "triage",
+   "title": "Multiple casualties: quick triage",
+   "category": 6,
+   "priority": 0,
+   "signs": [],
+   "nearby": [],
+   "doNot": [],
+   "call911When": null,
+   "detail": [
+    "\"Everyone who can walk, go to [spot].\" (Walking = lower priority.)",
+    "Go to the silent/still ones first.",
+    "Not breathing after opening airway? Many victims: move on. One patient: CPR.",
+    "Fix life threats only: bleeding control, airway (recovery position).",
+    "Mark status on forehead/sleeve with pen/lipstick: tourniquet time, \"T\" for tourniquet.",
+    "Give responders a count: how many, how bad."
+   ],
+   "steps": [
+    {
+     "text": "\"Everyone who can walk, go to [spot].\" (Walking = lower priority.)",
+     "keyword": "WALKERS"
+    },
+    {
+     "text": "Go to the silent/still ones first.",
+     "keyword": "SILENT"
+    },
+    {
+     "text": "Not breathing after opening airway? Many victims: move on. One patient: CPR.",
+     "keyword": "MOVE ON",
+     "tl": "Hindi humihinga? Maraming biktima: lumipat. Isang pasyente: mag-CPR.",
+     "kwTl": "LUMIPAT",
+     "kwTlStatus": "andy-new",
+     "tlSrc": "rex-v2.1"
+    },
+    {
+     "text": "Fix life threats only: bleeding control, airway (recovery position).",
+     "keyword": "FIX"
+    },
+    {
+     "text": "Mark status on forehead/sleeve with pen/lipstick: tourniquet time, \"T\" for tourniquet.",
+     "keyword": "MARK"
+    },
+    {
+     "text": "Give responders a count: how many, how bad.",
+     "keyword": "COUNT"
+    }
+   ],
+   "src": "Content v2 Multiple casualties",
+   "notes": [
+    "Note: \"move on\" is only for a mass casualty with many patients and few helpers. A lone patient who is not breathing = start CPR now."
+   ],
+   "sources": [
+    "Stop the Bleed (ACS)",
+    "IFRC First Aid Guidelines",
+    "START triage (lay version)"
+   ],
+   "keywords": [
+    "casualties",
+    "casualty",
+    "daghang",
+    "hurt",
+    "injured",
+    "many",
+    "maraming",
+    "mass",
+    "multiple",
+    "pile",
+    "samdan",
+    "several",
+    "sugatan",
+    "up",
+    "vehicle",
+    "victims"
+   ],
+   "links": [
+    "bleeding",
+    "recovery"
+   ],
+   "topics": [
+    "Multiple-vehicle collisions",
+    "Multiple-casualty incidents"
+   ],
+   "categoryName": "Public and mass-casualty emergencies",
+   "notesTl": [
+    "Ang \"lumipat sa susunod\" ay para lang sa maraming sugatan at kaunting tumutulong. Isang pasyenteng hindi humihinga = simulan agad ang CPR."
+   ]
+  },
+  {
+   "id": "recovery",
+   "title": "Recovery position",
+   "category": 2,
+   "priority": 0,
+   "signs": [],
+   "nearby": [],
+   "doNot": [],
+   "call911When": null,
+   "detail": [
+    "Kneel beside them. Near arm out at a right angle.",
+    "Far hand to near cheek, back of hand against it.",
+    "Bend far knee, pull it toward you to roll them on their side.",
+    "Tilt head back slightly to keep the airway open. Check breathing often."
+   ],
+   "steps": [
+    {
+     "text": "Kneel beside them.",
+     "keyword": "KNEEL",
+     "tl": "Lumuhod sa tabi niya.",
+     "kwTl": "LUMUHOD",
+     "kwTlStatus": "rex-v2",
+     "why": "keeps you stable and close enough to roll them safely."
+    },
+    {
+     "text": "Put their near arm out to the side.",
+     "keyword": "ARM",
+     "tl": "Iunat ang malapit na braso sa gilid.",
+     "kwTl": "IUNAT",
+     "kwTlStatus": "rex-v2",
+     "why": "stops them rolling onto their own arm."
+    },
+    {
+     "text": "Put their far hand against their cheek.",
+     "keyword": "HAND",
+     "tl": "Ilagay ang malayong kamay sa pisngi niya.",
+     "kwTl": "PISNGI",
+     "kwTlStatus": "rex-v2",
+     "why": "cushions and supports the head as they roll."
+    },
+    {
+     "text": "Bend their far knee up.",
+     "keyword": "KNEE",
+     "tl": "Itiklop ang malayong tuhod.",
+     "kwTl": "ITIKLOP",
+     "kwTlStatus": "rex-v2",
+     "why": "the bent leg is a lever, so the roll takes little effort."
+    },
+    {
+     "text": "Pull the knee to roll them toward you.",
+     "keyword": "ROLL",
+     "tl": "Hilahin ang tuhod para itagilid siya paharap sa iyo.",
+     "kwTl": "ITAGILID",
+     "kwTlStatus": "approved",
+     "why": "keeps the airway open and lets vomit drain."
+    },
+    {
+     "text": "Tilt their head back slightly.",
+     "keyword": "TILT",
+     "tl": "Bahagyang itingala ang ulo.",
+     "kwTl": "TINGALA",
+     "kwTlStatus": "rex-v2",
+     "why": "stops the tongue blocking the throat."
+    },
+    {
+     "text": "Check their breathing often.",
+     "keyword": "CHECK",
+     "tl": "Laging tingnan ang paghinga.",
+     "kwTl": "TINGNAN",
+     "kwTlStatus": "rex-v2",
+     "why": "they can stop breathing without warning."
+    }
+   ],
+   "src": "Content v2 + Voice v2 RECOVERY POSITION",
+   "sources": [
+    "AHA/Red Cross First Aid Guidelines 2024",
+    "ERC Guidelines 2025 First Aid"
+   ],
+   "keywords": [
+    "breathing",
+    "drowsy",
+    "position",
+    "recovery",
+    "side",
+    "unconscious"
+   ],
+   "links": [],
+   "topics": [],
+   "categoryName": "Medical emergencies",
+   "titleTl": "Recovery Position"
+  },
+  {
+   "id": "other",
+   "title": "Other / not sure",
+   "category": 0,
+   "priority": 0,
+   "signs": [],
+   "nearby": [],
+   "doNot": [],
+   "call911When": null,
+   "detail": [
+    "Call 911, recovery position if drowsy, stay with them."
+   ],
+   "steps": [
+    {
+     "text": "Call 911.",
+     "keyword": "CALL 911"
+    },
+    {
+     "text": "Recovery position if drowsy.",
+     "keyword": "SIDE"
+    },
+    {
+     "text": "Stay with them.",
+     "keyword": "STAY"
+    }
+   ],
+   "src": "Triage Tree v1 Q6 'Other / not sure'",
+   "keywords": [
+    "not",
+    "other",
+    "sure",
+    "unknown"
+   ],
+   "links": [
+    "recovery",
+    "cpr"
+   ],
+   "topics": [],
+   "sources": [],
+   "categoryName": ""
+  }
+ ]
+}
